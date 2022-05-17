@@ -151,7 +151,7 @@
       <div class="row pt-75">
         <div class="column size-12 lg-size-4">
           <div class="card shadow-lg p-15 flex mb-10 lg-m-0">
-            <figure class="figure size_64 mr-10 card-img">
+            <figure class="figure size-64 mr-10 card-img">
               <img src="../assets/mobile.png" alt="" />
             </figure>
             <div class="inline-block">
@@ -164,7 +164,7 @@
         </div>
         <div class="column size-12 lg-size-4">
           <div class="card shadow-lg p-15 flex mb-10 lg-m-0">
-            <figure class="figure size_64 mr-10 card-img">
+            <figure class="figure size-64 mr-10 card-img">
               <img src="../assets/js.png" alt="" />
             </figure>
             <div class="inline-block">
@@ -177,7 +177,7 @@
         </div>
         <div class="column size-12 lg-size-4">
           <div class="card shadow-lg p-15 flex">
-            <figure class="figure size_64 mr-15 card-img">
+            <figure class="figure size-64 mr-15 card-img">
               <img src="../assets/module.png" alt="" />
             </figure>
             <div class="inline-block">
@@ -196,7 +196,7 @@
       <div class="p-20 description">
         <div class="row">
           <div class="column size-12 lg-size-6">
-            <figure class="figure size_4by3">
+            <figure class="figure size-4by3">
               <img src="../assets/components.jpg" alt="" />
             </figure>
           </div>
@@ -242,7 +242,7 @@
             </button>
           </div>
           <div class="column size-12 lg-size-6">
-            <figure class="figure size_4by3">
+            <figure class="figure size-4by3">
               <img src="../assets/responsive.jpg" alt="" />
             </figure>
           </div>
@@ -256,7 +256,7 @@
       <div class="p-20 description">
         <div class="row">
           <div class="column size-12 lg-size-6">
-            <figure class="figure size_4by3 card-img">
+            <figure class="figure size-4by3 card-img">
               <img src="../assets/grid_design.jpg" alt="" />
             </figure>
           </div>

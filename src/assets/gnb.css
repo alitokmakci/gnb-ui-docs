@@ -12,6 +12,7 @@ body {
 * {
   outline: none !important;
   box-sizing: border-box;
+  scroll-behavior: smooth !important;
 }
 
 a {
@@ -7761,8 +7762,13 @@ blockquote {
   border-radius: 0;
 }
 
+.has-table {
+  overflow-y: auto;
+  width: 100%;
+}
+
 .tag {
-  display: inline-block;
+  display: inline-flex;
   font-size: 0.6rem;
   border-radius: 7px;
   padding: 4px 7px;
@@ -7771,7 +7777,8 @@ blockquote {
   cursor: default;
   pointer-events: none;
   user-select: none;
-  font-weight: 600;
+  font-weight: 700;
+  align-items: center;
 }
 .tag.lg {
   font-size: 0.7rem;
@@ -7907,7 +7914,7 @@ blockquote {
 }
 
 .tag-group {
-  display: flex;
+  display: inline-flex;
 }
 .tag-group .tag:first-child {
   border-top-right-radius: 0;
@@ -7965,7 +7972,7 @@ blockquote {
   transform: translate(-50%, 110%);
 }
 .tooltip.bottom:after {
-  transform: translate(-50%, -245%);
+  transform: translate(-50%, -310%);
   border-color: transparent transparent #2c3e50 transparent;
 }
 .tooltip.right {
@@ -10729,10 +10736,10 @@ blockquote {
     flex-direction: column;
     height: 50px;
   }
-  .navbar .navbar-item.dropdown.hoverable:hover {
+  .navbar .navbar-item.dropdown.open {
     height: 100%;
   }
-  .navbar .navbar-item.dropdown.hoverable:hover .dropdown-content {
+  .navbar .navbar-item.dropdown.open .dropdown-content {
     display: block;
     height: 100%;
   }

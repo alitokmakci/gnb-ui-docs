@@ -166,7 +166,7 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='<button class="btn flat mr-10">Default</button>
+            code='<button class="btn flat">Default</button>
 <button class="btn primary flat">Primary</button>
 <button class="btn secondary flat">Secondary</button>
 <button class="btn success flat">Success</button>
@@ -205,12 +205,12 @@
           <highlightjs
             autodetect
             code='<button class="btn square">Default</button>
-<button class="btn primary square mr-10">Primary</button>
-<button class="btn secondary flat square mr-10">Secondary</button>
-<button class="btn success square mr-10">Success</button>
-<button class="btn info flat square mr-10">Info</button>
-<button class="btn warning flat square mr-10">Warning</button>
-<button class="btn danger square mr-10">Danger</button>
+<button class="btn primary square">Primary</button>
+<button class="btn secondary flat square">Secondary</button>
+<button class="btn success square">Success</button>
+<button class="btn info flat square">Info</button>
+<button class="btn warning flat square">Warning</button>
+<button class="btn danger square">Danger</button>
 <button class="btn dark flat square">Dark</button>'
           />
         </div>
@@ -242,13 +242,13 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='<button class="btn bordered mr-10">Default</button>
-<button class="btn primary square bordered mr-10">Primary</button>
-<button class="btn secondary flat bordered mr-10">Secondary</button>
-<button class="btn success bordered mr-10">Success</button>
-<button class="btn info square bordered mr-10">Info</button>
-<button class="btn warning flat bordered mr-10">Warning</button>
-<button class="btn danger square bordered mr-10">Danger</button>
+            code='<button class="btn bordered">Default</button>
+<button class="btn primary square bordered">Primary</button>
+<button class="btn secondary flat bordered">Secondary</button>
+<button class="btn success bordered">Success</button>
+<button class="btn info square bordered">Info</button>
+<button class="btn warning flat bordered">Warning</button>
+<button class="btn danger square bordered">Danger</button>
 <button class="btn dark flat bordered">Dark</button>'
           />
         </div>
@@ -280,13 +280,13 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='<button class="btn pill mr-10">Default</button>
-<button class="btn primary bordered pill mr-10">Primary</button>
-<button class="btn secondary flat pill mr-10">Secondary</button>
-<button class="btn success bordered pill mr-10">Success</button>
-<button class="btn info bordered pill mr-10">Info</button>
-<button class="btn warning flat pill mr-10">Warning</button>
-<button class="btn danger pill mr-10">Danger</button>
+            code='<button class="btn pill">Default</button>
+<button class="btn primary bordered pill">Primary</button>
+<button class="btn secondary flat pill">Secondary</button>
+<button class="btn success bordered pill">Success</button>
+<button class="btn info bordered pill">Info</button>
+<button class="btn warning flat pill">Warning</button>
+<button class="btn danger pill">Danger</button>
 <button class="btn dark flat bordered pill">Dark</button>'
           />
         </div>
@@ -318,13 +318,13 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='<button class="btn link mr-10">Default</button>
-<button class="btn primary link mr-10">Primary</button>
-<button class="btn secondary link mr-10">Secondary</button>
-<button class="btn success link mr-10">Success</button>
-<button class="btn info link mr-10">Info</button>
-<button class="btn warning link mr-10">Warning</button>
-<button class="btn danger link mr-10">Danger</button>
+            code='<button class="btn link">Default</button>
+<button class="btn primary link">Primary</button>
+<button class="btn secondary link">Secondary</button>
+<button class="btn success link">Success</button>
+<button class="btn info link">Info</button>
+<button class="btn warning link">Warning</button>
+<button class="btn danger link">Danger</button>
 <button class="btn dark link">Dark</button>'
           />
         </div>
@@ -357,13 +357,13 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='<button class="btn floating mr-10">Default</button>
-<button class="btn primary floating mr-10">Primary</button>
-<button class="btn secondary floating mr-10">Secondary</button>
-<button class="btn success floating mr-10">Success</button>
-<button class="btn info floating mr-10">Info</button>
-<button class="btn warning floating mr-10">Warning</button>
-<button class="btn danger floating mr-10">Danger</button>
+            code='<button class="btn floating">Default</button>
+<button class="btn primary floating">Primary</button>
+<button class="btn secondary floating">Secondary</button>
+<button class="btn success floating">Success</button>
+<button class="btn info floating">Info</button>
+<button class="btn warning floating">Warning</button>
+<button class="btn danger floating">Danger</button>
 <button class="btn dark floating">Dark</button>'
           />
         </div>
@@ -396,13 +396,13 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='<button class="btn no-float mr-10">Default</button>
-<button class="btn primary no-float mr-10">Primary</button>
-<button class="btn secondary no-float mr-10">Secondary</button>
-<button class="btn success no-float mr-10">Success</button>
-<button class="btn info no-float mr-10">Info</button>
-<button class="btn warning no-float mr-10">Warning</button>
-<button class="btn danger no-float mr-10">Danger</button>
+            code='<button class="btn no-float">Default</button>
+<button class="btn primary no-float">Primary</button>
+<button class="btn secondary no-float">Secondary</button>
+<button class="btn success no-float">Success</button>
+<button class="btn info no-float">Info</button>
+<button class="btn warning no-float">Warning</button>
+<button class="btn danger no-float">Danger</button>
 <button class="btn dark no-float">Dark</button>'
           />
         </div>
@@ -436,13 +436,13 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='<button class="btn loading mr-10">Default</button>
-<button class="btn primary loading mr-10">Primary</button>
-<button class="btn secondary loading mr-10">Secondary</button>
-<button class="btn success loading mr-10">Success</button>
-<button class="btn info loading mr-10">Info</button>
-<button class="btn warning loading mr-10">Warning</button>
-<button class="btn danger loading mr-10">Danger</button>
+            code='<button class="btn loading">Default</button>
+<button class="btn primary loading">Primary</button>
+<button class="btn secondary loading">Secondary</button>
+<button class="btn success loading">Success</button>
+<button class="btn info loading">Info</button>
+<button class="btn warning loading">Warning</button>
+<button class="btn danger loading">Danger</button>
 <button class="btn dark loading">Dark</button>'
           />
         </div>

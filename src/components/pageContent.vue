@@ -50,7 +50,6 @@ export default {
 }
 
 .docs-title {
-  border-top-left-radius: 40px;
   background: #eef2f5;
 }
 
@@ -72,5 +71,33 @@ code {
   padding: 20px;
   box-shadow: none;
   transform: none !important;
+}
+
+@media (max-width: 992px) {
+	.page-content {
+		margin-left: 0 !important;
+	}
+
+	.content-navigation {
+		display: none;
+	}
+
+	.docs {
+		border-top-left-radius: 0;
+	}
+
+	.docs section {
+		padding-right: 1.5rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.docs .section {
+		padding-right: 200px;
+	}
+
+	.content-navigation {
+		display: block;
+	}
 }
 </style>
