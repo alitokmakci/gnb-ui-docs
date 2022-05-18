@@ -214,9 +214,12 @@
               more. The best thing is that you can use every elements and
               components in <b>any javascript framework</b>.
             </p>
-            <button class="btn primary lg self-start mt-20">
+            <router-link
+              to="/components"
+              class="btn primary lg self-start mt-20"
+            >
               Get Started with Components
-            </button>
+            </router-link>
           </div>
         </div>
       </div>
@@ -239,9 +242,9 @@
               trouble. Besides, you can make it compatible with the screen size
               you want with a few lines of code.
             </p>
-            <button class="btn primary lg self-start mt-20">
+            <router-link to="/elements" class="btn primary lg self-start mt-20">
               Get Started with Elements
-            </button>
+            </router-link>
           </div>
           <div class="column size-12 lg-size-6">
             <figure class="figure size-4by3">
@@ -274,9 +277,12 @@
               platform, you can get neat views on all screen sizes with the
               classes you add to a single code base.
             </p>
-            <button class="btn primary lg self-start mt-20">
+            <router-link
+              to="/layout/grid"
+              class="btn primary lg self-start mt-20"
+            >
               Get Started with Grid System
-            </button>
+            </router-link>
           </div>
         </div>
       </div>
