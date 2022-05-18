@@ -9936,6 +9936,9 @@ blockquote {
   -webkit-transform: scale(1.04);
   transform: scale(1.04);
 }
+.card.type-3 .card-img {
+  max-height: none;
+}
 .card.type-3 .card-img img {
   min-width: 200px;
   height: 100%;

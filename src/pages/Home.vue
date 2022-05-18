@@ -39,7 +39,9 @@
         <div class="relative md-block hidden" id="samples">
           <div id="sample-1" class="card type-3" style="max-width: 400px">
             <div class="card-img">
-              <img src="https://vuesax.com/foto5.png" alt="" />
+              <figure class="figure size-1by1" style="width: 25rem">
+                <img src="./../assets/photo2.jpg" alt="" />
+              </figure>
               <div class="card-interactions">
                 <button class="btn danger icon">
                   <i class="ri-heart-line"></i>
@@ -94,7 +96,7 @@
 
           <div id="sample-7" class="card type-5" style="max-width: 350px">
             <div class="card-img">
-              <img src="https://vuesax.com/foto1.png" alt="" />
+              <img src="./../assets/photo1.jpg" alt="" />
               <div class="card-interactions top-left">
                 <button class="btn danger icon">
                   <i class="ri-heart-line"></i>
