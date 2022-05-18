@@ -1,7 +1,17 @@
-# Vue 3 + Vite
+# GNB UI Documentation
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+To see online documentation, please visit: [https://gnbdesign.online](https://gnbdesign.online)
 
-## Recommended IDE Setup
+To get this documentation locally:
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+```sh
+git clone https://github.com/alitokmakci/gnb-ui-docs.git
+```
+
+```sh
+cd gnb-ui-docs
+
+yarn install
+
+yarn dev
+```
