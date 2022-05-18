@@ -54,9 +54,7 @@ export default {
 }
 
 code {
-  border-radius: 6px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+	border-radius: 6px 6px 10px 10px;
 }
 
 .docs {
@@ -71,6 +69,10 @@ code {
   padding: 20px;
   box-shadow: none;
   transform: none !important;
+}
+
+.table .tag {
+	user-select: all;
 }
 
 @media (max-width: 992px) {

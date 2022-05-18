@@ -52,11 +52,11 @@
 					<li
 						class="menu-item"
 						:class="{
-			              active: isActive('/elements/buttons'),
+			              active: isActive('/elements/button'),
 			            }"
-						@click="$router.push('/elements/buttons')"
+						@click="$router.push('/elements/button')"
 					>
-						<router-link to="/elements/buttons">Buttons</router-link>
+						<router-link to="/elements/button">Button</router-link>
 					</li>
 					<li
 						class="menu-item"

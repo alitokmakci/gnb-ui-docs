@@ -9,7 +9,7 @@
 		style="z-index: 99999"
 	>
 		<div class="navbar-left">
-			<button class="btn navbar-burger-icon ml-0 mr-auto" @click="toggleSidebar()">
+			<button v-if="leftBurger" class="btn navbar-burger-icon ml-0 mr-auto" @click="toggleSidebar()">
 				<span></span>
 				<span></span>
 				<span></span>
@@ -96,7 +96,11 @@ export default {
 		shadow: {
 			type: Boolean,
 			default: true
-		}
+		},
+		leftBurger: {
+			type: Boolean,
+			default: true
+		},
 	},
 	methods: {
 		isActive(path) {

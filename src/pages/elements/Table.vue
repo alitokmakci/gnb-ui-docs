@@ -1104,7 +1104,7 @@
 					</p>
 				</div>
 
-				<div class="text-center mt-25 bg-white p-30 border-radius-2">
+				<div class="text-center mt-25 bg-white p-30 border-radius-2 has-table">
 					<table class="table primary striped">
 						<thead>
 						<tr>

@@ -317,62 +317,64 @@
 					</p>
 				</div>
 
-				<table class="table dark bordered striped">
-					<thead>
-					<tr>
-						<th>Name</th>
-						<th>Default Value</th>
-						<th>Computed Value</th>
-					</tr>
-					</thead>
-					<tbody class="bg-white">
-					<tr>
-						<td><span class="tag primary">$tooltip-default-background-color</span></td>
-						<td>
-							<span class="tag secondary">$font-color</span>
-						</td>
-						<td><span class="tag warning">rgba(44, 62, 80)</span></td>
-					</tr>
-					<tr>
-						<td><span class="tag primary">$tooltip-default-font-color</span></td>
-						<td><span class="tag secondary">$white</span></td>
-						<td><span class="tag warning">rgba(255, 255, 255)</span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tooltip-border-radius</span>
-						</td>
-						<td><span class="tag secondary">12px</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tooltip-padding</span>
-						</td>
-						<td><span class="tag secondary">0.5rem 1rem</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tooltip-font-size</span>
-						</td>
-						<td><span class="tag secondary">0.75rem</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td><span class="tag primary">$tooltip-z-index</span></td>
-						<td><span class="tag secondary">1020</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$flat-tooltip-background-alpha</span>
-						</td>
-						<td><span class="tag secondary">$flat-color-alpha</span></td>
-						<td><span class="tag warning">0.15</span></td>
-					</tr>
-					</tbody>
-				</table>
+				<div class="has-table">
+					<table class="table dark bordered striped">
+						<thead>
+						<tr>
+							<th>Name</th>
+							<th>Default Value</th>
+							<th>Computed Value</th>
+						</tr>
+						</thead>
+						<tbody class="bg-white">
+						<tr>
+							<td><span class="tag primary">$tooltip-default-background-color</span></td>
+							<td>
+								<span class="tag secondary">$font-color</span>
+							</td>
+							<td><span class="tag warning">rgba(44, 62, 80)</span></td>
+						</tr>
+						<tr>
+							<td><span class="tag primary">$tooltip-default-font-color</span></td>
+							<td><span class="tag secondary">$white</span></td>
+							<td><span class="tag warning">rgba(255, 255, 255)</span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tooltip-border-radius</span>
+							</td>
+							<td><span class="tag secondary">12px</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tooltip-padding</span>
+							</td>
+							<td><span class="tag secondary">0.5rem 1rem</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tooltip-font-size</span>
+							</td>
+							<td><span class="tag secondary">0.75rem</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td><span class="tag primary">$tooltip-z-index</span></td>
+							<td><span class="tag secondary">1020</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$flat-tooltip-background-alpha</span>
+							</td>
+							<td><span class="tag secondary">$flat-color-alpha</span></td>
+							<td><span class="tag warning">0.15</span></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</section>
 	</Layout>

@@ -1,5 +1,5 @@
 <template>
-  <navbar></navbar>
+  <navbar :left-burger="false"></navbar>
   <div class="hero half-screen">
     <div class="hero-body relative">
       <div class="w-100 md-w-50 flex flex-column justify-center">

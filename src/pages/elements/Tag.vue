@@ -351,118 +351,120 @@ closeButtonsForTags.forEach(btn => {
 					</p>
 				</div>
 
-				<table class="table dark bordered striped">
-					<thead>
-					<tr>
-						<th>Name</th>
-						<th>Default Value</th>
-						<th>Computed Value</th>
-					</tr>
-					</thead>
-					<tbody class="bg-white">
-					<tr>
-						<td><span class="tag primary">$tag-font-color</span></td>
-						<td>
-							<span class="tag secondary">$font-color</span>
-						</td>
-						<td><span class="tag warning">rgba(44, 62, 80)</span></td>
-					</tr>
-					<tr>
-						<td><span class="tag primary">$tag-padding</span></td>
-						<td><span class="tag secondary">4px 7px</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tag-border-radius</span>
-						</td>
-						<td><span class="tag secondary">7px</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tag-font-weight</span>
-						</td>
-						<td><span class="tag secondary">700</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tag-font-size</span>
-						</td>
-						<td><span class="tag secondary">0.6rem</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td><span class="tag primary">$tag-background-color</span></td>
-						<td><span class="tag secondary">tint(white, 85%)</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tag-lg-font-size</span>
-						</td>
-						<td><span class="tag secondary">0.7rem</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tag-lg-border-radius</span>
-						</td>
-						<td><span class="tag secondary">8px</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tag-lg-padding</span>
-						</td>
-						<td><span class="tag secondary">px 9px</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tag-xl-font-size</span>
-						</td>
-						<td><span class="tag secondary">0.8rem</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tag-xl-border-radius</span>
-						</td>
-						<td><span class="tag secondary">9px</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tag-xl-padding</span>
-						</td>
-						<td><span class="tag secondary">8px 11px</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tag-close-button-height</span>
-						</td>
-						<td><span class="tag secondary">12px</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tag-close-button-width</span>
-						</td>
-						<td><span class="tag secondary">$tag-close-button-height</span></td>
-						<td><span class="tag warning">12px</span></td>
-					</tr>
-					<tr>
-						<td>
-							<span class="tag primary">$tag-close-button-margin</span>
-						</td>
-						<td><span class="tag secondary">4px</span></td>
-						<td><span class="tag warning"></span></td>
-					</tr>
-					</tbody>
-				</table>
+				<div class="has-table">
+					<table class="table dark bordered striped">
+						<thead>
+						<tr>
+							<th>Name</th>
+							<th>Default Value</th>
+							<th>Computed Value</th>
+						</tr>
+						</thead>
+						<tbody class="bg-white">
+						<tr>
+							<td><span class="tag primary">$tag-font-color</span></td>
+							<td>
+								<span class="tag secondary">$font-color</span>
+							</td>
+							<td><span class="tag warning">rgba(44, 62, 80)</span></td>
+						</tr>
+						<tr>
+							<td><span class="tag primary">$tag-padding</span></td>
+							<td><span class="tag secondary">4px 7px</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tag-border-radius</span>
+							</td>
+							<td><span class="tag secondary">7px</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tag-font-weight</span>
+							</td>
+							<td><span class="tag secondary">700</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tag-font-size</span>
+							</td>
+							<td><span class="tag secondary">0.6rem</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td><span class="tag primary">$tag-background-color</span></td>
+							<td><span class="tag secondary">tint(white, 85%)</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tag-lg-font-size</span>
+							</td>
+							<td><span class="tag secondary">0.7rem</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tag-lg-border-radius</span>
+							</td>
+							<td><span class="tag secondary">8px</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tag-lg-padding</span>
+							</td>
+							<td><span class="tag secondary">px 9px</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tag-xl-font-size</span>
+							</td>
+							<td><span class="tag secondary">0.8rem</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tag-xl-border-radius</span>
+							</td>
+							<td><span class="tag secondary">9px</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tag-xl-padding</span>
+							</td>
+							<td><span class="tag secondary">8px 11px</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tag-close-button-height</span>
+							</td>
+							<td><span class="tag secondary">12px</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tag-close-button-width</span>
+							</td>
+							<td><span class="tag secondary">$tag-close-button-height</span></td>
+							<td><span class="tag warning">12px</span></td>
+						</tr>
+						<tr>
+							<td>
+								<span class="tag primary">$tag-close-button-margin</span>
+							</td>
+							<td><span class="tag secondary">4px</span></td>
+							<td><span class="tag warning"></span></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</section>
 	</Layout>
