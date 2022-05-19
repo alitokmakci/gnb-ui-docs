@@ -1187,102 +1187,102 @@
             </thead>
             <tbody class="bg-white">
               <tr>
-                <td><span class="tag primary">$table-min-width</span></td>
                 <td>
-                  <span class="tag secondary">500px</span>
+                  $table-min-width
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag warning"></span></td>
+                <td>500px</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$table-header-background</span>
+                  $table-header-background
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">$gray-2</span></td>
-                <td><span class="tag warning">rgb(244, 247, 248)</span></td>
+                <td>$gray-2</td>
+                <td>rgb(244, 247, 248)</td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$table-header-border-radius</span>
+                  $table-header-border-radius
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">12px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>12px</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$table-header-padding</span>
+                  $table-header-padding
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">10px 12px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>10px 12px</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$table-header-font-size</span>
+                  $table-header-font-size
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">0.8rem</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>0.8rem</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$table-footer-background</span>
+                  $table-footer-background
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td>
-                  <span class="tag secondary">$table-header-background</span>
-                </td>
-                <td><span class="tag warning">rgb(244, 247, 248)</span></td>
+                <td>$table-header-background</td>
+                <td>rgb(244, 247, 248)</td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$table-footer-border-radius</span>
+                  $table-footer-border-radius
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td>
-                  <span class="tag secondary">$table-header-border-radius</span>
-                </td>
-                <td><span class="tag warning">12px</span></td>
+                <td>$table-header-border-radius</td>
+                <td>12px</td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$table-cell-padding</span>
+                  $table-cell-padding
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td>
-                  <span class="tag secondary">$table-header-padding</span>
-                </td>
-                <td><span class="tag warning">10px 12px</span></td>
+                <td>$table-header-padding</td>
+                <td>10px 12px</td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$table-cell-font-size</span>
+                  $table-cell-font-size
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td>
-                  <span class="tag secondary">$table-header-font-size</span>
-                </td>
-                <td><span class="tag warning">0.8rem</span></td>
+                <td>$table-header-font-size</td>
+                <td>0.8rem</td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$bordered-table-border-style</span>
+                  $bordered-table-border-style
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">dashed</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-
-              <tr>
-                <td>
-                  <span class="tag primary">$striped-table-odd-background</span>
-                </td>
-                <td><span class="tag secondary">$white</span></td>
-                <td><span class="tag warning">rgba(255, 255, 255)</span></td>
+                <td>dashed</td>
+                <td></td>
               </tr>
 
               <tr>
                 <td>
-                  <span class="tag primary"
-                    >$striped-table-even-background</span
-                  >
+                  $striped-table-odd-background
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
+                <td>$white</td>
+                <td>rgba(255, 255, 255)</td>
+              </tr>
+
+              <tr>
                 <td>
-                  <span class="tag secondary">$table-header-background</span>
+                  $striped-table-even-background
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag warning">rgb(244, 247, 248)</span></td>
+                <td>$table-header-background</td>
+                <td>rgb(244, 247, 248)</td>
               </tr>
             </tbody>
           </table>

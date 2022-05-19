@@ -368,107 +368,118 @@ closeButtonsForTags.forEach(btn => {
             </thead>
             <tbody class="bg-white">
               <tr>
-                <td><span class="tag primary">$tag-font-color</span></td>
                 <td>
-                  <span class="tag secondary">$font-color</span>
+                  $tag-font-color <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag warning">rgba(44, 62, 80)</span></td>
-              </tr>
-              <tr>
-                <td><span class="tag primary">$tag-padding</span></td>
-                <td><span class="tag secondary">4px 7px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$font-color</td>
+                <td>rgba(44, 62, 80)</td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$tag-border-radius</span>
+                  $tag-padding <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">7px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>4px 7px</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$tag-font-weight</span>
+                  $tag-border-radius
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">700</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>7px</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$tag-font-size</span>
+                  $tag-font-weight <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">0.6rem</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td><span class="tag primary">$tag-background-color</span></td>
-                <td><span class="tag secondary">tint(white, 85%)</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>700</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$tag-lg-font-size</span>
+                  $tag-font-size <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">0.7rem</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>0.6rem</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$tag-lg-border-radius</span>
+                  $tag-background-color
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">8px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>tint(white, 85%)</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$tag-lg-padding</span>
+                  $tag-lg-font-size
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">px 9px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>0.7rem</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$tag-xl-font-size</span>
+                  $tag-lg-border-radius
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">0.8rem</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>8px</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$tag-xl-border-radius</span>
+                  $tag-lg-padding <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">9px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>px 9px</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$tag-xl-padding</span>
+                  $tag-xl-font-size
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">8px 11px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>0.8rem</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$tag-close-button-height</span>
+                  $tag-xl-border-radius
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">12px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>9px</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$tag-close-button-width</span>
+                  $tag-xl-padding <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td>
-                  <span class="tag secondary">$tag-close-button-height</span>
-                </td>
-                <td><span class="tag warning">12px</span></td>
+                <td>8px 11px</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$tag-close-button-margin</span>
+                  $tag-close-button-height
+                  <span class="tag success">since: 0.2.0</span>
                 </td>
-                <td><span class="tag secondary">4px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>12px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  $tag-close-button-width
+                  <span class="tag success">since: 0.2.0</span>
+                </td>
+                <td>$tag-close-button-height</td>
+                <td>12px</td>
+              </tr>
+              <tr>
+                <td>
+                  $tag-close-button-margin
+                  <span class="tag success">since: 0.2.0</span>
+                </td>
+                <td>4px</td>
+                <td></td>
               </tr>
             </tbody>
           </table>

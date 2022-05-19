@@ -24,9 +24,7 @@
     <section class="section docs-title">
       <div class="container">
         <h1 class="title-5 fw-500">Get Started</h1>
-        <p class="subtitle">
-          Start a project with <span class="fw-600">GNB UI</span>.
-        </p>
+        <p class="subtitle">Start a project with <b>GNB UI</b>.</p>
       </div>
     </section>
 
@@ -35,9 +33,9 @@
         <div>
           <h2 class="mb-20">&bull; Quick Start</h2>
           <p class="fs-6">
-            To use GNB UI's beautiful looking components, just add a single css
-            file to your project! You can import the css file via a cdn or
-            download it by clicking the button below.
+            To use <b>GNB UI</b>'s beautiful looking components, just add a
+            single css file to your project! You can import the css file via a
+            cdn or download it by clicking the button below.
           </p>
         </div>
 
@@ -62,12 +60,12 @@
           </h4>
 
           <p class="fs-6">
-            Install GNB UI Package via <b>npm</b> or <b>yarn</b>:
+            Install <b>GNB UI</b> Package via <b>npm</b> or <b>yarn</b>:
           </p>
           <highlightjs
             autodetect
             code="npm install gnb-ui
-  or
+// or
 yarn add gnb-ui"
           />
           <p class="fs-6">Import scss file to your main scss file</p>
@@ -97,8 +95,8 @@ yarn add gnb-ui"
         <div>
           <h2 class="mb-20">&bull; Requirements</h2>
           <p class="fs-6">
-            For using responsive features of GNB UI, you need to add meta tag to
-            your webpage.
+            For using responsive features of <b>GNB UI</b>, you need to add meta
+            tag to your webpage.
           </p>
         </div>
 

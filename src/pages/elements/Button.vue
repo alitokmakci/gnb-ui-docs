@@ -597,240 +597,182 @@
             </thead>
             <tbody class="bg-white">
               <tr>
-                <td><span class="tag primary">$button-font-color</span></td>
-                <td><span class="tag secondary">$font-color</span></td>
-                <td><span class="tag warning">rgb(44, 62, 80)</span></td>
+                <td>$button-font-color</td>
+                <td>$font-color</td>
+                <td>rgb(44, 62, 80)</td>
               </tr>
               <tr>
+                <td>$button-background-color</td>
+                <td>$white</td>
+                <td>rgb(0, 0, 0)</td>
+              </tr>
+              <tr>
+                <td>$button-border-width</td>
+                <td>2px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$button-padding</td>
+                <td>6p 10px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$button-font-size</td>
+                <td>0.8rem</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$button-border-radius</td>
+                <td>12px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$disabled-button-opacity</td>
+                <td>0.5</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$xl-button-padding</td>
+                <td>15px 20px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$xl-button-font-size</td>
+                <td>1.1rem</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$xl-button-border-radius</td>
+                <td>20px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$lg-button-padding</td>
+                <td>10px 15px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$lg-button-font-size</td>
+                <td>1rem</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$lg-button-border-radius</td>
+                <td>15px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$sm-button-padding</td>
+                <td>5px 10px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$sm-button-font-size</td>
+                <td>0.75rem</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$sm-button-border-radius</td>
+                <td>9px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$mini-button-padding</td>
+                <td>3px 8px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$mini-button-font-size</td>
+                <td>0.6rem</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$mini-button-border-radius</td>
+                <td>7px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$icon-button-padding</td>
+                <td>6px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$icon-button-font-size</td>
+                <td>16px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$bordered-button-font-color</td>
+                <td>$button-background-color</td>
+                <td>rgb(0,0,0)</td>
+              </tr>
+              <tr>
+                <td>$bordered-button-border-color</td>
+                <td>$button-background-color</td>
+                <td>rgb(0,0,0)</td>
+              </tr>
+              <tr>
+                <td>$bordered-button-hovered-border-color-alpha</td>
+                <td>0.5</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$floating-button-translate-size</td>
+                <td>-3px</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>$flat-button-background-alpha</td>
+                <td>$flat-color-alpha</td>
+                <td>0.15</td>
+              </tr>
+              <tr>
+                <td>$flat-button-background-color</td>
                 <td>
-                  <span class="tag primary">$button-background-color</span>
+                  tint( $button-background-color, percentage(1 -
+                  $flat-button-background-alpha) )
                 </td>
-                <td><span class="tag secondary">$white</span></td>
-                <td><span class="tag warning">rgb(0, 0, 0)</span></td>
+                <td>rgba(0,0,0)</td>
               </tr>
               <tr>
-                <td><span class="tag primary">$button-border-width</span></td>
-                <td><span class="tag secondary">2px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$flat-button-font-color</td>
+                <td>rgba($font-color, 0.65)</td>
+                <td>rgba(44, 62, 80, 0.65)</td>
               </tr>
               <tr>
-                <td><span class="tag primary">$button-padding</span></td>
-                <td><span class="tag secondary">6p 10px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$flat-button-hovered-background-alpha</td>
+                <td>0.25</td>
+                <td></td>
               </tr>
               <tr>
-                <td><span class="tag primary">$button-font-size</span></td>
-                <td><span class="tag secondary">0.8rem</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$link-button-background-color</td>
+                <td>$button-background-color</td>
+                <td>rgba(0,0,0)</td>
               </tr>
               <tr>
-                <td><span class="tag primary">$button-border-radius</span></td>
-                <td><span class="tag secondary">12px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$link-button-font-color</td>
+                <td>$button-font-color</td>
+                <td>rgb(44, 62, 80)</td>
               </tr>
               <tr>
-                <td>
-                  <span class="tag primary">$disabled-button-opacity</span>
-                </td>
-                <td><span class="tag secondary">0.5</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$link-button-background-alpha</td>
+                <td>0.1</td>
+                <td></td>
               </tr>
               <tr>
-                <td><span class="tag primary">$xl-button-padding</span></td>
-                <td><span class="tag secondary">15px 20px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$loading-button-spinner-diameter</td>
+                <td>16px</td>
+                <td></td>
               </tr>
               <tr>
-                <td><span class="tag primary">$xl-button-font-size</span></td>
-                <td><span class="tag secondary">1.1rem</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$loading-button-spinner-width</td>
+                <td>3px</td>
+                <td></td>
               </tr>
               <tr>
-                <td>
-                  <span class="tag primary">$xl-button-border-radius</span>
-                </td>
-                <td><span class="tag secondary">20px</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td><span class="tag primary">$lg-button-padding</span></td>
-                <td><span class="tag secondary">10px 15px</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td><span class="tag primary">$lg-button-font-size</span></td>
-                <td><span class="tag secondary">1rem</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$lg-button-border-radius</span>
-                </td>
-                <td><span class="tag secondary">15px</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td><span class="tag primary">$sm-button-padding</span></td>
-                <td><span class="tag secondary">5px 10px</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td><span class="tag primary">$sm-button-font-size</span></td>
-                <td><span class="tag secondary">0.75rem</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$sm-button-border-radius</span>
-                </td>
-                <td><span class="tag secondary">9px</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td><span class="tag primary">$mini-button-padding</span></td>
-                <td><span class="tag secondary">3px 8px</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td><span class="tag primary">$mini-button-font-size</span></td>
-                <td><span class="tag secondary">0.6rem</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$mini-button-border-radius</span>
-                </td>
-                <td><span class="tag secondary">7px</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td><span class="tag primary">$icon-button-padding</span></td>
-                <td><span class="tag secondary">6px</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td><span class="tag primary">$icon-button-font-size</span></td>
-                <td><span class="tag secondary">16px</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$bordered-button-font-color</span>
-                </td>
-                <td>
-                  <span class="tag secondary">$button-background-color</span>
-                </td>
-                <td><span class="tag warning">rgb(0,0,0)</span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$bordered-button-border-color</span>
-                </td>
-                <td>
-                  <span class="tag secondary">$button-background-color</span>
-                </td>
-                <td><span class="tag warning">rgb(0,0,0)</span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary"
-                    >$bordered-button-hovered-border-color-alpha</span
-                  >
-                </td>
-                <td><span class="tag secondary">0.5</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary"
-                    >$floating-button-translate-size</span
-                  >
-                </td>
-                <td><span class="tag secondary">-3px</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$flat-button-background-alpha</span>
-                </td>
-                <td><span class="tag secondary">$flat-color-alpha</span></td>
-                <td><span class="tag warning">0.15</span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$flat-button-background-color</span>
-                </td>
-                <td>
-                  <span class="tag secondary"
-                    >tint( $button-background-color, percentage(1 -
-                    $flat-button-background-alpha) )</span
-                  >
-                </td>
-                <td><span class="tag warning">rgba(0,0,0)</span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$flat-button-font-color</span>
-                </td>
-                <td>
-                  <span class="tag secondary">rgba($font-color, 0.65)</span>
-                </td>
-                <td><span class="tag warning">rgba(44, 62, 80, 0.65)</span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary"
-                    >$flat-button-hovered-background-alpha</span
-                  >
-                </td>
-                <td><span class="tag secondary">0.25</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$link-button-background-color</span>
-                </td>
-                <td>
-                  <span class="tag secondary">$button-background-color</span>
-                </td>
-                <td><span class="tag warning">rgba(0,0,0)</span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$link-button-font-color</span>
-                </td>
-                <td><span class="tag secondary">$button-font-color</span></td>
-                <td><span class="tag warning">rgb(44, 62, 80)</span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$link-button-background-alpha</span>
-                </td>
-                <td><span class="tag secondary">0.1</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary"
-                    >$loading-button-spinner-diameter</span
-                  >
-                </td>
-                <td><span class="tag secondary">16px</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$loading-button-spinner-width</span>
-                </td>
-                <td><span class="tag secondary">3px</span></td>
-                <td><span class="tag warning"></span></td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$loading-button-spinner-color</span>
-                </td>
-                <td><span class="tag secondary">$button-font-color</span></td>
-                <td><span class="tag warning">rgb(44, 62, 80)</span></td>
+                <td>$loading-button-spinner-color</td>
+                <td>$button-font-color</td>
+                <td>rgb(44, 62, 80)</td>
               </tr>
             </tbody>
           </table>

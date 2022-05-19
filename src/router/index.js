@@ -9,6 +9,10 @@ const routes = [
     path: "/customization",
     component: () => import("../pages/Customization.vue"),
   },
+  {
+    path: "/variables",
+    component: () => import("../pages/Variables.vue"),
+  },
   { path: "/elements", component: () => import("../pages/elements/index.vue") },
   {
     path: "/elements/button",

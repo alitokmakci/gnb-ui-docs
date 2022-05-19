@@ -492,30 +492,21 @@
             </thead>
             <tbody class="bg-white">
               <tr>
-                <td><span class="tag primary">$sizes</span></td>
+                <td>$sizes</td>
+                <td>(16, 24, 32, 48, 64, 96, 128)</td>
+              </tr>
+              <tr>
+                <td>$ratios</td>
                 <td>
-                  <span class="tag secondary"
-                    >(16, 24, 32, 48, 64, 96, 128)</span
-                  >
+                  ( "1by1": 100%, "5by4": 80%, "4by3": 75%, "3by2": 66.6666%,
+                  "5by3": 60%, "16by9": 56.25%, "2by1": 50%, "3by1": 33.3333%,
+                  "4by5": 125%, "3by4": 133.3333%, "2by3": 150%, "3by5":
+                  166.6666%, "9by16": 177.7777%, "1by2": 200%, "1by3": 300%, )
                 </td>
               </tr>
               <tr>
-                <td><span class="tag primary">$ratios</span></td>
-                <td>
-                  <span class="tag secondary"
-                    >( "1by1": 100%, "5by4": 80%, "4by3": 75%, "3by2": 66.6666%,
-                    "5by3": 60%, "16by9": 56.25%, "2by1": 50%, "3by1": 33.3333%,
-                    "4by5": 125%, "3by4": 133.3333%, "2by3": 150%, "3by5":
-                    166.6666%, "9by16": 177.7777%, "1by2": 200%, "1by3": 300%,
-                    )</span
-                  >
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span class="tag primary">$rounded-image-border-radius</span>
-                </td>
-                <td><span class="tag secondary">12px</span></td>
+                <td>$rounded-image-border-radius</td>
+                <td>12px</td>
               </tr>
             </tbody>
           </table>

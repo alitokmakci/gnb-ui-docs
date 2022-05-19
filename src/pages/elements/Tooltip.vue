@@ -362,57 +362,39 @@
             </thead>
             <tbody class="bg-white">
               <tr>
-                <td>
-                  <span class="tag primary"
-                    >$tooltip-default-background-color</span
-                  >
-                </td>
-                <td>
-                  <span class="tag secondary">$font-color</span>
-                </td>
-                <td><span class="tag warning">rgba(44, 62, 80)</span></td>
+                <td>$tooltip-default-background-color</td>
+                <td>$font-color</td>
+                <td>rgba(44, 62, 80)</td>
               </tr>
               <tr>
-                <td>
-                  <span class="tag primary">$tooltip-default-font-color</span>
-                </td>
-                <td><span class="tag secondary">$white</span></td>
-                <td><span class="tag warning">rgba(255, 255, 255)</span></td>
+                <td>$tooltip-default-font-color</td>
+                <td>$white</td>
+                <td>rgba(255, 255, 255)</td>
               </tr>
               <tr>
-                <td>
-                  <span class="tag primary">$tooltip-border-radius</span>
-                </td>
-                <td><span class="tag secondary">12px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$tooltip-border-radius</td>
+                <td>12px</td>
+                <td></td>
               </tr>
               <tr>
-                <td>
-                  <span class="tag primary">$tooltip-padding</span>
-                </td>
-                <td><span class="tag secondary">0.5rem 1rem</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$tooltip-padding</td>
+                <td>0.5rem 1rem</td>
+                <td></td>
               </tr>
               <tr>
-                <td>
-                  <span class="tag primary">$tooltip-font-size</span>
-                </td>
-                <td><span class="tag secondary">0.75rem</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$tooltip-font-size</td>
+                <td>0.75rem</td>
+                <td></td>
               </tr>
               <tr>
-                <td><span class="tag primary">$tooltip-z-index</span></td>
-                <td><span class="tag secondary">1020</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$tooltip-z-index</td>
+                <td>1020</td>
+                <td></td>
               </tr>
               <tr>
-                <td>
-                  <span class="tag primary"
-                    >$flat-tooltip-background-alpha</span
-                  >
-                </td>
-                <td><span class="tag secondary">$flat-color-alpha</span></td>
-                <td><span class="tag warning">0.15</span></td>
+                <td>$flat-tooltip-background-alpha</td>
+                <td>$flat-color-alpha</td>
+                <td>0.15</td>
               </tr>
             </tbody>
           </table>

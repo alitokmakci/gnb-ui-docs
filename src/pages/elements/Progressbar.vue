@@ -214,63 +214,47 @@
             </thead>
             <tbody class="bg-white">
               <tr>
-                <td><span class="tag primary">$progress-height</span></td>
-                <td>
-                  <span class="tag secondary">5px</span>
-                </td>
-                <td><span class="tag warning"></span></td>
+                <td>$progress-height</td>
+                <td>5px</td>
+                <td></td>
               </tr>
               <tr>
-                <td>
-                  <span class="tag primary">$progress-border-radius</span>
-                </td>
-                <td><span class="tag secondary">18px</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$progress-border-radius</td>
+                <td>18px</td>
+                <td></td>
               </tr>
               <tr>
-                <td>
-                  <span class="tag primary">$progress-background</span>
-                </td>
-                <td><span class="tag secondary">$gray-1</span></td>
-                <td><span class="tag warning">rgb(230, 233, 234)</span></td>
+                <td>$progress-background</td>
+                <td>$gray-1</td>
+                <td>rgb(230, 233, 234)</td>
               </tr>
               <tr>
-                <td>
-                  <span class="tag primary">$progressbar-background</span>
-                </td>
-                <td><span class="tag secondary">$white</span></td>
-                <td><span class="tag warning">rgb(255, 255, 255)</span></td>
+                <td>$progressbar-background</td>
+                <td>$white</td>
+                <td>rgb(255, 255, 255)</td>
               </tr>
               <tr>
-                <td>
-                  <span class="tag primary">$progressbar-font-size</span>
-                </td>
-                <td><span class="tag secondary">0.75rem</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$progressbar-font-size</td>
+                <td>0.75rem</td>
+                <td></td>
               </tr>
 
               <tr>
-                <td>
-                  <span class="tag primary">$progressbar-font-weight</span>
-                </td>
-                <td><span class="tag secondary">500</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$progressbar-font-weight</td>
+                <td>500</td>
+                <td></td>
               </tr>
 
               <tr>
-                <td>
-                  <span class="tag primary">$progressbar-font-line-height</span>
-                </td>
-                <td><span class="tag secondary">1</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$progressbar-font-line-height</td>
+                <td>1</td>
+                <td></td>
               </tr>
 
               <tr>
-                <td>
-                  <span class="tag primary">$infinite-animation-duration</span>
-                </td>
-                <td><span class="tag secondary">1.5s</span></td>
-                <td><span class="tag warning"></span></td>
+                <td>$infinite-animation-duration</td>
+                <td>1.5s</td>
+                <td></td>
               </tr>
             </tbody>
           </table>
