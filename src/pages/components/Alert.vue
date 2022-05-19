@@ -688,82 +688,60 @@ closeButtonsForAlerts.forEach(btn => {
             </thead>
             <tbody class="bg-white">
               <tr>
-                <td><span class="tag primary">$alert-font-color</span></td>
-                <td>
-                  <span class="tag secondary">$font-color</span>
-                </td>
-                <td><span class="tag warning">rgba(44, 62, 80)</span></td>
+                <td>$alert-font-color</td>
+                <td>$font-color</td>
+                <td>rgba(44, 62, 80)</td>
               </tr>
               <tr>
                 <td>
-                  <span class="tag primary">$alert-background-color</span>
+                  $alert-background-color
                   <br />
                   <small class="text-danger"
                     >Note: we are mixin that color with 90% $white</small
                   >
                 </td>
-                <td>
-                  <span class="tag secondary">$gray-1</span>
-                </td>
-                <td><span class="tag warning">rgba(230, 233, 234)</span></td>
+                <td>$gray-1</td>
+                <td>rgba(230, 233, 234)</td>
               </tr>
               <tr>
-                <td><span class="tag primary">$alert-font-size</span></td>
-                <td>
-                  <span class="tag secondary">0.9rem</span>
-                </td>
-                <td><span class="tag warning"></span></td>
+                <td>$alert-font-size</td>
+                <td>0.9rem</td>
+                <td></td>
               </tr>
               <tr>
-                <td><span class="tag primary">$alert-z-index</span></td>
-                <td>
-                  <span class="tag secondary">10</span>
-                </td>
-                <td><span class="tag warning"></span></td>
+                <td>$alert-z-index</td>
+                <td>10</td>
+                <td></td>
               </tr>
               <tr>
-                <td><span class="tag primary">$alert-padding</span></td>
-                <td>
-                  <span class="tag secondary">0 20px</span>
-                </td>
-                <td><span class="tag warning"></span></td>
+                <td>$alert-padding</td>
+                <td>0 20px</td>
+                <td></td>
               </tr>
               <tr>
-                <td><span class="tag primary">$alert-border-radius</span></td>
-                <td>
-                  <span class="tag secondary">0 12px 12px 0</span>
-                </td>
-                <td><span class="tag warning"></span></td>
+                <td>$alert-border-radius</td>
+                <td>0 12px 12px 0</td>
+                <td></td>
               </tr>
               <tr>
-                <td>
-                  <span class="tag primary">$alert-title-font-weight</span>
-                </td>
-                <td>
-                  <span class="tag secondary">600</span>
-                </td>
-                <td><span class="tag warning"></span></td>
+                <td>$alert-title-font-weight</td>
+                <td>600</td>
+                <td></td>
               </tr>
               <tr>
-                <td><span class="tag primary">$alert-title-font-size</span></td>
-                <td>
-                  <span class="tag secondary">1rem</span>
-                </td>
-                <td><span class="tag warning"></span></td>
+                <td>$alert-title-font-size</td>
+                <td>1rem</td>
+                <td></td>
               </tr>
               <tr>
-                <td><span class="tag primary">$alert-title-padding</span></td>
-                <td>
-                  <span class="tag secondary">15px 0</span>
-                </td>
-                <td><span class="tag warning"></span></td>
+                <td>$alert-title-padding</td>
+                <td>15px 0</td>
+                <td></td>
               </tr>
               <tr>
-                <td><span class="tag primary">$alert-icon-font-size</span></td>
-                <td>
-                  <span class="tag secondary">1.25rem</span>
-                </td>
-                <td><span class="tag warning"></span></td>
+                <td>$alert-icon-font-size</td>
+                <td>1.25rem</td>
+                <td></td>
               </tr>
             </tbody>
           </table>

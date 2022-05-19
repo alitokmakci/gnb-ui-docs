@@ -43,6 +43,23 @@ const routes = [
     component: () => import("../pages/components/Alert.vue"),
   },
   {
+    path: "/components/avatar",
+    component: () => import("../pages/components/Avatar.vue"),
+  },
+  {
+    path: "/components/card",
+    component: () => import("../pages/components/Card.vue"),
+  },
+
+  {
+    path: "/form-elements/general",
+    component: () => import("../pages/form/General.vue"),
+  },
+  {
+    path: "/form-elements/input",
+    component: () => import("../pages/form/Input.vue"),
+  },
+  {
     path: "/404",
     name: "PageNotExist",
     component: () => import("../pages/404.vue"),
