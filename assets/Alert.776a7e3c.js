@@ -1,0 +1,173 @@
+import{_ as r}from"./Layout.a78c32cb.js";import{i as c,c as d,w as l,o as n,a as s,b as i,e as u,j as p,d as t,r as m}from"./index.550afb10.js";import"./pageContent.afc8ac59.js";const v=s("div",{class:"card"},[s("h5",{class:"text-right pr-30 mb-10"},"On this page:"),s("ul",null,[s("li",null,[s("a",{class:"link dark",href:"#default"}," Default ")]),s("li",null,[s("a",{class:"link dark",href:"#colors"}," Colors ")]),s("li",null,[s("a",{class:"link dark",href:"#flat"}," Flat ")]),s("li",null,[s("a",{class:"link dark",href:"#close"}," Close Button ")]),s("li",null,[s("a",{class:"link dark",href:"#grouping"}," Grouping ")]),s("li",null,[s("a",{class:"link dark",href:"#sizing"}," Sizing ")]),s("li",null,[s("a",{class:"link dark",href:"#variables"},"Variables")])])],-1),h=s("section",{class:"section docs-title"},[s("div",{class:"container"},[s("h1",{class:"title-5 fw-500"},"Alerts"),s("p",{class:"subtitle"},[s("b",null,"GNB UI"),t(" provides a set of alerts.")])])],-1),g={class:"section"},_={class:"container"},f=s("h5",{class:"mb-20"},"To Import Alerts Separately:",-1),b={class:"section",id:"default"},y={class:"container"},w=s("div",null,[s("h2",{class:"mb-20"},"\u2022 Default Alert"),s("p",{class:"fs-6"}," Default alert is simple component that can be used to display a message to the user. ")],-1),x=s("div",{class:"mt-25"},[s("div",{class:"alert"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a default alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])])],-1),T={class:"mt-25"},L=s("p",null,"HTML:",-1),q={class:"section",id:"colors"},P={class:"container"},k=s("div",null,[s("h2",{class:"mb-20"},"\u2022 Colors"),s("p",{class:"fs-6"},[t(" You can use any color you want with one of the color classes with "),s("code",{class:"text-danger"},".alert"),t(" component. ")])],-1),A=s("div",{class:"mt-25"},[s("div",{class:"alert primary"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a primary alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert secondary mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a secondary alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert success mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a success alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert info mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a info alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert warning mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a warning alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert danger mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a danger alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert dark mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a dark alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])])],-1),$={class:"mt-25"},C=s("p",null,"HTML:",-1),B={class:"section",id:"flat"},D={class:"container"},H=s("div",null,[s("h2",{class:"mb-20"},"\u2022 Flat Colors"),s("p",{class:"fs-6"},[t(" To use flat colors you can use "),s("code",{class:"text-danger"},".flat"),t(" class with the color class to the "),s("code",{class:"text-danger"},".alert"),t(" component. ")])],-1),I=s("div",{class:"mt-25"},[s("div",{class:"alert primary flat"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a primary alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert secondary flat mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a secondary alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert success flat mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a success alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert info flat mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a info alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert warning flat mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a warning alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert danger flat mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a danger alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert dark flat mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"This is a dark alert!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])])],-1),M={class:"mt-25"},N=s("p",null,"HTML:",-1),V={class:"section",id:"bordered"},z={class:"container"},j=s("div",null,[s("h2",{class:"mb-20"},"\u2022 Bordered"),s("p",{class:"fs-6"},[t(" To use bordered colors you can use "),s("code",{class:"text-danger"},".bordered"),t(" class to the "),s("code",{class:"text-danger"},".alert"),t(" component. ")])],-1),E=s("div",{class:"mt-25"},[s("div",{class:"alert primary bordered"},[s("div",{class:"alert-content"},[s("div",{class:"alert-title"}," This is a bordered alert with primary color! "),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])])],-1),F={class:"mt-25"},S=s("p",null,"HTML:",-1),G={class:"section",id:"shadow"},J={class:"container"},Y=s("div",null,[s("h2",{class:"mb-20"},"\u2022 Shadow")],-1),O=s("div",{class:"mt-25"},[s("div",{class:"alert danger shadow"},[s("div",{class:"alert-content"},[s("div",{class:"alert-title"}," This is a shadow alert with danger color! "),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])])],-1),R={class:"mt-25"},U=s("p",null,"HTML:",-1),K={class:"section",id:"icon"},Q={class:"container"},W=s("div",null,[s("h2",{class:"mb-20"},"\u2022 Icon"),s("p",{class:"fs-6"},[t(" To use icon in your alert add "),s("code",{class:"text-danger"},".has-icon"),t(" class to the "),s("code",{class:"text-danger"},".alert"),t(" component and add "),s("code",{class:"text-danger"},".alert-icon"),t(" wrapper element inside the "),s("code",{class:"text-danger"},".alert"),t(" component (After or before "),s("code",{class:"text-danger"},".alert-content"),t("). Now you can add your icon inside the "),s("code",{class:"text-danger"},".alert-icon"),t(" wrapper ")])],-1),X=s("div",{class:"mt-25"},[s("div",{class:"alert primary flat has-icon"},[s("div",{class:"alert-icon"},[s("i",{class:"ri-user-follow-line"})]),s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"Alert with Icon!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")])]),s("div",{class:"alert success has-icon mt-10"},[s("div",{class:"alert-content"},[s("h1",{class:"alert-title"},"Alert with Icon!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")]),s("div",{class:"alert-icon"},[s("i",{class:"ri-user-follow-line"})])])],-1),Z={class:"mt-25"},ss=s("p",null,"HTML:",-1),ts={class:"section",id:"footer"},es={class:"container"},is=s("div",null,[s("h2",{class:"mb-20"},"\u2022 Footer"),s("p",{class:"fs-6"},[t(" In some cases you may want to add some confirm buttons to your alert. Thats why we added a footer to the alert component. You can add your confirm buttons or something else in your mind inside the "),s("code",{class:"text-danger"},".alert-footer"),t(" element. ")])],-1),as=s("div",{class:"mt-25"},[s("div",{class:"alert primary flat"},[s("div",{class:"alert-content"},[s("div",{class:"alert-title"},"This is a alert with footer!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")]),s("div",{class:"alert-footer"},[s("button",{class:"btn primary flat mr-10"},"Decline"),s("button",{class:"btn primary"},"Accept")])])],-1),ls={class:"mt-25"},ns=s("p",null,"HTML:",-1),os={class:"section",id:"close"},rs={class:"container"},cs=s("div",null,[s("h2",{class:"mb-20"},"\u2022 Close"),s("p",{class:"fs-6"},[t(" If you want your alert to be closed by clicking on the close button you can add a button inside the "),s("code",{class:"text-danger"},".alert"),t(" element with "),s("code",{class:"text-danger"},".close"),t(" class and write some javascript code. The javascript example is given in the next section. ")])],-1),ds=s("div",{class:"mt-25"},[s("div",{class:"alert primary flat"},[s("button",{class:"close"}),s("div",{class:"alert-content"},[s("div",{class:"alert-title"},"This is a alert with footer!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")]),s("div",{class:"alert-footer"},[s("button",{class:"btn primary flat mr-10"},"Decline"),s("button",{class:"btn primary"},"Accept")])])],-1),us={class:"mt-25"},ps=s("p",null,"HTML:",-1),ms={class:"section",id:"close"},vs={class:"container"},hs=s("div",null,[s("h2",{class:"mb-20"},"\u2022 Close Button Javascript Example")],-1),gs={class:"mt-25"},_s={key:0,class:"alert primary flat"},fs=s("div",{class:"alert-content"},[s("div",{class:"alert-title"},"This is a alert with close button!"),s("p",null," Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloribus fugit expedita repellendus magni, saepe minus sunt esse quas in! ")],-1),bs=s("div",{class:"alert-footer"},[s("button",{class:"btn primary flat mr-10"},"Decline"),s("button",{class:"btn primary"},"Accept")],-1),ys={class:"mt-25"},ws=s("p",null,"HTML:",-1),xs=s("section",{class:"section",id:"variables"},[s("div",{class:"container"},[s("div",null,[s("h2",{class:"mb-20"},"\u2022 Variables"),s("p",{class:"fs-6"}," To customize the alert component you change the variables listed below. ")]),s("div",{class:"has-table"},[s("table",{class:"table dark bordered striped"},[s("thead",null,[s("tr",null,[s("th",null,"Name"),s("th",null,"Default Value"),s("th",null,"Computed Value")])]),s("tbody",{class:"bg-white"},[s("tr",null,[s("td",null,[s("span",{class:"tag primary"},"$alert-font-color")]),s("td",null,[s("span",{class:"tag secondary"},"$font-color")]),s("td",null,[s("span",{class:"tag warning"},"rgba(44, 62, 80)")])]),s("tr",null,[s("td",null,[s("span",{class:"tag primary"},"$alert-background-color"),s("br"),s("small",{class:"text-danger"},"Note: we are mixin that color with 90% $white")]),s("td",null,[s("span",{class:"tag secondary"},"$gray-1")]),s("td",null,[s("span",{class:"tag warning"},"rgba(230, 233, 234)")])]),s("tr",null,[s("td",null,[s("span",{class:"tag primary"},"$alert-font-size")]),s("td",null,[s("span",{class:"tag secondary"},"0.9rem")]),s("td",null,[s("span",{class:"tag warning"})])]),s("tr",null,[s("td",null,[s("span",{class:"tag primary"},"$alert-z-index")]),s("td",null,[s("span",{class:"tag secondary"},"10")]),s("td",null,[s("span",{class:"tag warning"})])]),s("tr",null,[s("td",null,[s("span",{class:"tag primary"},"$alert-padding")]),s("td",null,[s("span",{class:"tag secondary"},"0 20px")]),s("td",null,[s("span",{class:"tag warning"})])]),s("tr",null,[s("td",null,[s("span",{class:"tag primary"},"$alert-border-radius")]),s("td",null,[s("span",{class:"tag secondary"},"0 12px 12px 0")]),s("td",null,[s("span",{class:"tag warning"})])]),s("tr",null,[s("td",null,[s("span",{class:"tag primary"},"$alert-title-font-weight")]),s("td",null,[s("span",{class:"tag secondary"},"600")]),s("td",null,[s("span",{class:"tag warning"})])]),s("tr",null,[s("td",null,[s("span",{class:"tag primary"},"$alert-title-font-size")]),s("td",null,[s("span",{class:"tag secondary"},"1rem")]),s("td",null,[s("span",{class:"tag warning"})])]),s("tr",null,[s("td",null,[s("span",{class:"tag primary"},"$alert-title-padding")]),s("td",null,[s("span",{class:"tag secondary"},"15px 0")]),s("td",null,[s("span",{class:"tag warning"})])]),s("tr",null,[s("td",null,[s("span",{class:"tag primary"},"$alert-icon-font-size")]),s("td",null,[s("span",{class:"tag secondary"},"1.25rem")]),s("td",null,[s("span",{class:"tag warning"})])])])])])])],-1),$s={setup(Ts){const a=c(!0),o=()=>{a.value=!1};return(Ls,qs)=>{const e=m("highlightjs");return n(),d(r,null,{navigation:l(()=>[v]),default:l(()=>[h,s("section",g,[s("div",_,[f,i(e,{autodetect:"",code:'@import "../../node_modules/gnb-ui/src/components/alert";'})])]),s("section",b,[s("div",y,[w,x,s("div",T,[L,i(e,{autodetect:"",code:`
+<div class="alert">
+    <div class="alert-content">
+        <h1 class="alert-title">This is a default alert!</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Provident doloribus fugit expedita repellendus magni, saepe
+            minus sunt esse quas in!
+        </p>
+        </div>
+    </div>
+</div>`})])])]),s("section",q,[s("div",P,[k,A,s("div",$,[C,i(e,{autodetect:"",code:`
+<div class="alert primary">
+    <div class="alert-content">
+        <h1 class="alert-title">This is a primary alert!</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Provident doloribus fugit expedita repellendus magni, saepe
+            minus sunt esse quas in!
+        </p>
+        </div>
+    </div>
+</div>
+<div class="alert secondary">
+    ...
+</div>
+<div class="alert success">
+    ...
+</div>
+<div class="alert info">
+    ...
+</div>
+<div class="alert warning">
+    ...
+</div>
+<div class="alert danger">
+    ...
+</div>
+<div class="alert dark">
+    ...
+</div>
+`})])])]),s("section",B,[s("div",D,[H,I,s("div",M,[N,i(e,{autodetect:"",code:`
+<div class="alert primary flat">
+    <div class="alert-content">
+        <h1 class="alert-title">This is a primary alert!</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Provident doloribus fugit expedita repellendus magni, saepe
+            minus sunt esse quas in!
+        </p>
+        </div>
+    </div>
+</div>
+<div class="alert secondary flat">
+    ...
+</div>
+<div class="alert success flat">
+    ...
+</div>
+<div class="alert info flat">
+    ...
+</div>
+<div class="alert warning flat">
+    ...
+</div>
+<div class="alert danger flat">
+    ...
+</div>
+<div class="alert dark flat">
+    ...
+</div>`})])])]),s("section",V,[s("div",z,[j,E,s("div",F,[S,i(e,{autodetect:"",code:`<div class="alert primary bordered">
+    <div class="alert-content">
+        <h1 class="alert-title">This is a bordered alert with primary color!</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Provident doloribus fugit expedita repellendus magni, saepe
+            minus sunt esse quas in!
+        </p>
+        </div>
+    </div>
+</div>`})])])]),s("section",G,[s("div",J,[Y,O,s("div",R,[U,i(e,{autodetect:"",code:`<div class="alert danger shadow">
+    <div class="alert-content">
+        <h1 class="alert-title">This is a shadow alert with danger color!</h1>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Provident doloribus fugit expedita repellendus magni, saepe
+        minus sunt esse quas in!
+        </p>
+        </div>
+    </div>
+</div>`})])])]),s("section",K,[s("div",Q,[W,X,s("div",Z,[ss,i(e,{autodetect:"",code:`
+<div class="alert primary flat has-icon">
+  <div class="alert-icon">
+    <i class="ri-user-follow-line"></i>
+  </div>
+  <div class="alert-content">
+    <h1 class="alert-title">Alert with Icon!</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Provident doloribus fugit expedita repellendus magni, saepe
+      minus sunt esse quas in!
+    </p>
+  </div>
+</div>
+<div class="alert success has-icon mt-10">
+  <div class="alert-content">
+    <h1 class="alert-title">Alert with Icon!</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Provident doloribus fugit expedita repellendus magni, saepe
+      minus sunt esse quas in!
+    </p>
+  </div>
+  <div class="alert-icon">
+    <i class="ri-user-follow-line"></i>
+  </div>
+</div>
+		  `})])])]),s("section",ts,[s("div",es,[is,as,s("div",ls,[ns,i(e,{autodetect:"",code:`<div class="alert primary flat">
+    <div class="alert-content">
+        <h1 class="alert-title">This is a alert with footer!</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Provident doloribus fugit expedita repellendus magni, saepe
+            minus sunt esse quas in!
+        </p>
+    </div>
+    <div class="alert-footer">
+        <button class="btn primary flat mr-10">Decline</button>
+        <button class="btn primary">Accept</button>
+    </div>
+</div>`})])])]),s("section",os,[s("div",rs,[cs,ds,s("div",us,[ps,i(e,{autodetect:"",code:`<div class="alert primary flat">
+    <button class="close"></button>
+    <div class="alert-content">
+        <h1 class="alert-title">This is a alert with footer!</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Provident doloribus fugit expedita repellendus magni, saepe
+            minus sunt esse quas in!
+        </p>
+    </div>
+    <div class="alert-footer">
+        <button class="btn primary flat mr-10">Decline</button>
+        <button class="btn primary">Accept</button>
+    </div>
+</div>`})])])]),s("section",ms,[s("div",vs,[hs,s("div",gs,[a.value?(n(),u("div",_s,[s("button",{class:"close",onClick:o}),fs,bs])):p("",!0)]),s("div",ys,[ws,i(e,{autodetect:"",code:`<div class="alert primary flat">
+    <button class="close"></button>
+    <div class="alert-content">
+        <h1 class="alert-title">This is a alert with close button!</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Provident doloribus fugit expedita repellendus magni, saepe
+            minus sunt esse quas in!
+        </p>
+    </div>
+    <div class="alert-footer">
+        <button class="btn primary flat mr-10">Decline</button>
+        <button class="btn primary">Accept</button>
+    </div>
+</div>
+
+//Javascript Code
+<script>
+// Select all the close buttons inside alert
+let closeButtonsForAlerts = document.querySelectorAll(".alert .close");
+
+closeButtonsForAlerts.forEach(btn => {
+    // add event listener for each close button
+    btn.addEventListener("click", function() {
+        // Remove the alert on click
+        btn.parentElement.remove();
+    });
+});
+<\/script>`})])])]),xs]),_:1})}}};export{$s as default};
