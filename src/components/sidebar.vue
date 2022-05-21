@@ -398,7 +398,7 @@
         ref="utilities"
       >
         <div class="group-content" @click="openGroup('utilities')">
-          <a class="group-title" href="#">Utilities</a>
+          <a class="group-title blink-dot" href="#">Utilities</a>
         </div>
         <ul class="group-menu">
           <li
@@ -409,8 +409,7 @@
             @click="$router.push('/utilities/backgrounds')"
           >
             <router-link to="/utilities/backgrounds"
-              >Backgrounds
-              <span class="tag warning">Processing</span></router-link
+              >Backgrounds <span class="tag success">New</span></router-link
             >
           </li>
           <li

@@ -79,6 +79,11 @@ const routes = [
     path: "/form-elements/textarea",
     component: () => import("../pages/form/Textarea.vue"),
   },
+
+  {
+    path: "/utilities/backgrounds",
+    component: () => import("../pages/utils/Backgrounds.vue"),
+  },
   {
     path: "/404",
     name: "PageNotExist",
