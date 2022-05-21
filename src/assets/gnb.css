@@ -8107,6 +8107,11 @@ blockquote {
   margin-bottom: 0.75rem;
   position: relative;
 }
+.form-element .label {
+  font-size: 0.75rem;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
 .form-element.horizontal {
   flex-direction: row;
 }
@@ -8512,12 +8517,6 @@ blockquote {
   height: 36px;
   transition: all 0.25s ease;
   color: inherit;
-}
-
-.label {
-  font-size: 0.75rem;
-  margin-left: 10px;
-  margin-bottom: 2px;
 }
 
 .input {

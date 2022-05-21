@@ -25,6 +25,9 @@
           <li>
             <a class="link dark" href="#icon"> Icon </a>
           </li>
+          <li>
+            <a class="link dark" href="#variables"> Variables </a>
+          </li>
         </ul>
       </div>
     </template>
@@ -510,9 +513,60 @@
         </div>
       </div>
     </section>
+
+    <section class="section" id="variables">
+      <div class="container">
+        <div>
+          <h2 class="mb-20">&bull; Variables</h2>
+          <p class="fs-6">
+            To customize the input component you change the variables listed
+            below.
+          </p>
+        </div>
+
+        <variableTable :variables="variables" />
+      </div>
+    </section>
   </Layout>
 </template>
 
 <script setup>
 import Layout from "../../layout/Layout.vue";
+import variableTable from "../../components/variableTable.vue";
+
+const variables = [
+  {
+    name: "$input-background-color",
+    value: "$gray-2",
+    computed: "rgb(244, 247, 248)",
+  },
+  {
+    name: "$input-height  <span class='tag success'>since 0.2.1</span>",
+    value: "36px",
+    computed: "",
+  },
+  { name: "$placeholder-opacity", value: "0.4", computed: "" },
+  { name: "$input-min-width", value: "200px", computed: "" },
+  { name: "$input-border-radius", value: "12px", computed: "" },
+  {
+    name: "$input-icon-box-width <span class='tag success'>since 0.2.1</span>",
+    value: "$input-height",
+    computed: "36px",
+  },
+  {
+    name: "$input-icon-box-height <span class='tag success'>since 0.2.1</span>",
+    value: "$input-icon-box-width",
+    computed: "36px",
+  },
+  {
+    name: "$input-border-width <span class='tag success'>since 0.2.1</span>",
+    value: "2px",
+    computed: "",
+  },
+  {
+    name: "$input-padding <span class='tag success'>since 0.2.1</span>",
+    value: "7px 13px 7px 10px",
+    computed: "",
+  },
+];
 </script>

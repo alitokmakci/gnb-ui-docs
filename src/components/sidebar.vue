@@ -114,7 +114,7 @@
         ref="form"
       >
         <div class="group-content" @click="openGroup('form')">
-          <a class="group-title" href="#">Form Elements</a>
+          <a class="group-title blink-dot" href="#">Form Elements</a>
         </div>
         <ul class="group-menu">
           <li
@@ -124,7 +124,9 @@
             }"
             @click="$router.push('/form-elements/general')"
           >
-            <router-link to="/form-elements/general">General</router-link>
+            <router-link to="/form-elements/general"
+              >General <span class="tag success">New</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -133,7 +135,9 @@
             }"
             @click="$router.push('/form-elements/input')"
           >
-            <router-link to="/form-elements/input">Input</router-link>
+            <router-link to="/form-elements/input"
+              >Input <span class="tag success">New</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -142,7 +146,9 @@
             }"
             @click="$router.push('/form-elements/select')"
           >
-            <router-link to="/form-elements/select">Select</router-link>
+            <router-link to="/form-elements/select"
+              >Select <span class="tag success">New</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -191,7 +197,7 @@
         ref="components"
       >
         <div class="group-content" @click="openGroup('components')">
-          <a class="group-title" href="#">Components</a>
+          <a class="group-title blink-dot" href="#">Components</a>
         </div>
         <ul class="group-menu">
           <li
@@ -210,7 +216,9 @@
             }"
             @click="$router.push('/components/avatar')"
           >
-            <router-link to="/components/avatar">Avatar</router-link>
+            <router-link to="/components/avatar"
+              >Avatar <span class="tag success">New</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -547,3 +555,44 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blink {
+  animation: blink 1s linear infinite;
+}
+
+.blink-dot {
+  position: relative;
+}
+
+.blink-dot::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(255, 71, 87);
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  animation: blink 0.8s infinite;
+}
+
+.tag {
+  font-size: 0.5rem;
+  padding: 3px 6px 2px;
+  line-height: 1;
+  position: absolute;
+  top: 38%;
+  transform: translate(-50%);
+  right: 50%;
+}
+</style>

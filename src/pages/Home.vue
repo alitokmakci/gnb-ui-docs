@@ -327,16 +327,20 @@ import BaseFooter from "../components/baseFooter.vue";
   height: 100%;
 }
 
+#samples_container {
+  transform: scale(0.85);
+}
+
 @media (max-width: 1500px) {
   #samples_container {
-    transform: scale(0.8);
+    transform: scale(0.7);
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1300px) {
+@media (min-width: 1024px) and (max-width: 1305px) {
   #samples_container {
     width: 60%;
-    transform: scale(0.6);
+    transform: scale(0.65);
   }
 }
 

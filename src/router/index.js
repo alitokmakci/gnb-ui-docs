@@ -60,6 +60,10 @@ const routes = [
     component: () => import("../pages/form/Input.vue"),
   },
   {
+    path: "/form-elements/select",
+    component: () => import("../pages/form/Select.vue"),
+  },
+  {
     path: "/404",
     name: "PageNotExist",
     component: () => import("../pages/404.vue"),
