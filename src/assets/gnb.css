@@ -8992,7 +8992,7 @@ blockquote {
   border-radius: 12px;
   background-color: #f4f7f8;
   color: #2c3e50;
-  width: 200px;
+  min-width: 200px;
 }
 .select.primary:active, .select.primary:focus {
   border-bottom-color: #1a5cff;
@@ -9070,6 +9070,37 @@ blockquote {
   width: 0;
   visibility: hidden;
 }
+.switch + label {
+  cursor: pointer;
+  width: 50px;
+  height: 25px;
+  background: #e6e9ea;
+  display: block;
+  border-radius: 200px;
+  position: relative;
+  transition: all 0.3s;
+}
+.switch + label:after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 17px;
+  height: 17px;
+  background: white;
+  border-radius: 27px;
+  transition: 0.3s;
+}
+.switch:checked + label {
+  background: #6c757d;
+}
+.switch:checked + label:after {
+  left: calc(100% - 5px) !important;
+  transform: translateX(-100%);
+}
+.switch + label:active:after {
+  width: 40px;
+}
 .switch.mini + label {
   width: 30px;
   height: 15px;
@@ -9079,7 +9110,6 @@ blockquote {
   left: 4px;
   width: 7px;
   height: 7px;
-  border-radius: 12px;
 }
 .switch.mini + label:active:after {
   width: 20px;
@@ -9093,7 +9123,6 @@ blockquote {
   left: 4px;
   width: 12px;
   height: 12px;
-  border-radius: 22px;
 }
 .switch.sm + label:active:after {
   width: 30px;
@@ -9120,31 +9149,9 @@ blockquote {
   left: 4px;
   width: 32px;
   height: 32px;
-  border-radius: 32px;
 }
 .switch.xl + label:active:after {
   width: 70px;
-}
-.switch + label {
-  cursor: pointer;
-  width: 50px;
-  height: 25px;
-  background: #e6e9ea;
-  display: block;
-  border-radius: 200px;
-  position: relative;
-  transition: all 0.3s;
-}
-.switch + label:after {
-  content: "";
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  width: 17px;
-  height: 17px;
-  background: #fff;
-  border-radius: 27px;
-  transition: 0.3s;
 }
 .switch.primary:checked + label {
   background: #1a5cff;
@@ -9167,13 +9174,6 @@ blockquote {
 .switch.dark:checked + label {
   background: black;
 }
-.switch:checked + label:after {
-  left: calc(100% - 5px);
-  transform: translateX(-100%);
-}
-.switch + label:active:after {
-  width: 40px;
-}
 .switch.square + label {
   border-radius: 4px;
 }
@@ -9187,7 +9187,7 @@ blockquote {
   background-color: #f4f7f8;
   border-radius: 12px;
   padding: 7px 13px 7px 10px;
-  width: 200px;
+  min-width: 200px;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }

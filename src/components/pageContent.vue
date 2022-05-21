@@ -54,7 +54,7 @@ export default {
 }
 
 code {
-	border-radius: 6px 6px 10px 10px;
+  border-radius: 6px 6px 10px 10px;
 }
 
 .docs {
@@ -72,34 +72,34 @@ code {
 }
 
 .table .tag {
-	user-select: all;
+  user-select: all;
 }
 
 @media (max-width: 992px) {
-	.page-content {
-		margin-left: 0 !important;
-	}
+  .page-content {
+    margin-left: 0 !important;
+  }
 
-	.content-navigation {
-		display: none;
-	}
+  .content-navigation {
+    display: none;
+  }
 
-	.docs {
-		border-top-left-radius: 0;
-	}
+  .docs {
+    border-top-left-radius: 0;
+  }
 
-	.docs section {
-		padding-right: 1.5rem;
-	}
+  .docs section {
+    padding-right: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {
-	.docs .section {
-		padding-right: 200px;
-	}
+  .docs .section {
+    padding-right: 200px;
+  }
 
-	.content-navigation {
-		display: block;
-	}
+  .content-navigation {
+    display: block;
+  }
 }
 </style>

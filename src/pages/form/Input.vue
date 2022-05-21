@@ -545,7 +545,7 @@ const variables = [
     value: "36px",
     computed: "",
   },
-  { name: "$placeholder-opacity", value: "0.4", computed: "" },
+  { name: "$input-placeholder-opacity", value: "0.4", computed: "" },
   { name: "$input-min-width", value: "200px", computed: "" },
   { name: "$input-border-radius", value: "12px", computed: "" },
   {

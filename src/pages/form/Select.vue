@@ -696,12 +696,12 @@ const variables = [
   {
     name: "$select-option-background-color  <span class='tag success'>since 0.2.1</span>",
     value: "$white",
-    computed: "rgba(255, 255, 255)",
+    computed: "rgb(255, 255, 255)",
   },
   {
     name: "$select-option-font-color  <span class='tag success'>since 0.2.1</span>",
     value: "$font-color",
-    computed: "rgba(44, 62, 80)",
+    computed: "rgb(44, 62, 80)",
   },
 ];
 </script>

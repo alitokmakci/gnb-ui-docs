@@ -68,6 +68,18 @@ const routes = [
     component: () => import("../pages/form/Checkbox.vue"),
   },
   {
+    path: "/form-elements/radio",
+    component: () => import("../pages/form/Radio.vue"),
+  },
+  {
+    path: "/form-elements/switch",
+    component: () => import("../pages/form/Switch.vue"),
+  },
+  {
+    path: "/form-elements/textarea",
+    component: () => import("../pages/form/Textarea.vue"),
+  },
+  {
     path: "/404",
     name: "PageNotExist",
     component: () => import("../pages/404.vue"),

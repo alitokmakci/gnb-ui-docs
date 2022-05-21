@@ -180,7 +180,7 @@
         <div class="column size-12 lg-size-4">
           <div class="card shadow-lg p-15 flex">
             <figure class="figure size-64 mr-15 card-img">
-              <img src="../assets/module.png" alt="" />
+              <img src="../assets/modular.jpg" alt="" />
             </figure>
             <div class="inline-block">
               <h4 class="mb-10">Modular</h4>

@@ -1,7 +1,7 @@
 {
   "name": "gnb_ui_docs",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.2.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

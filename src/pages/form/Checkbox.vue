@@ -47,8 +47,8 @@
         <div>
           <h2 class="mb-20">&bull; Default Checkbox</h2>
           <p class="fs-6">
-            The default select component is a simple select element with a
-            <code class="text-danger">.select</code> class.
+            The default checkbox component is a simple checkbox element with a
+            <code class="text-danger">.checkbox</code> class.
           </p>
           <p class="fs-6">
             <span class="text-danger">*</span>Do not forget to add
@@ -92,7 +92,7 @@
           <p class="fs-6">
             You can add a color to the checkbox by adding the one of the color
             classes to the <code class="text-danger">.checkbox</code> element.
-            Just click the select and see the change!
+            Just click the checkbox and see the change!
           </p>
           <p class="fs-6">
             <span class="text-danger">*</span>Do not forget to add
@@ -240,7 +240,7 @@
         <div>
           <h2 class="mb-20">&bull; Flat</h2>
           <p class="fs-6">
-            To use flat colors for select add
+            To use flat colors for checkbox add
             <code class="text-danger">.flat</code> with one of the colors.
           </p>
           <p class="fs-6">

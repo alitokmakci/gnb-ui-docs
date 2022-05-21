@@ -168,7 +168,9 @@
             }"
             @click="$router.push('/form-elements/radio')"
           >
-            <router-link to="/form-elements/radio">Radio</router-link>
+            <router-link to="/form-elements/radio"
+              >Radio <span class="tag success">New</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -177,7 +179,9 @@
             }"
             @click="$router.push('/form-elements/switch')"
           >
-            <router-link to="/form-elements/switch">Switch</router-link>
+            <router-link to="/form-elements/switch"
+              >Switch <span class="tag success">New</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -186,7 +190,9 @@
             }"
             @click="$router.push('/form-elements/textarea')"
           >
-            <router-link to="/form-elements/textarea">Textarea</router-link>
+            <router-link to="/form-elements/textarea"
+              >Textarea <span class="tag success">New</span></router-link
+            >
           </li>
         </ul>
       </div>
