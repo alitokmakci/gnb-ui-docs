@@ -236,7 +236,7 @@
             @click="$router.push('/components/card')"
           >
             <router-link to="/components/card"
-              >Card <span class="tag warning">Processing</span></router-link
+              >Card <span class="tag success">New</span></router-link
             >
           </li>
           <li
@@ -651,8 +651,8 @@ export default {
 
 .blink-dot::before {
   content: "";
-  width: 10px;
-  height: 10px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   background: rgb(255, 71, 87);
   position: absolute;

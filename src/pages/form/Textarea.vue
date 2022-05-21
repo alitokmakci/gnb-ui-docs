@@ -532,7 +532,7 @@ const variables = [
     computed: "rgb(244, 247, 248)",
   },
   { name: "$textarea-placeholder-opacity", value: "0.4", computed: "" },
-  { name: "$textarea-min-width", value: "200px", computed: "" },
+  { name: "$textarea-min-width", value: "210px", computed: "" },
   { name: "$textarea-border-radius", value: "12px", computed: "" },
 ];
 </script>

@@ -52,6 +52,9 @@
             <router-link to="/elements">
               <div class="dropdown-item">Elements</div>
             </router-link>
+            <router-link to="/form-elements">
+              <div class="dropdown-item">Form Elements</div>
+            </router-link>
             <router-link to="/components">
               <div class="dropdown-item">Components</div>
             </router-link>

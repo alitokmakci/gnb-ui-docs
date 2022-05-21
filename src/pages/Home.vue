@@ -8,11 +8,6 @@
           Free, open source and modular
           <span class="text-dark fw-500">ui framework</span> that has built-in
           <span class="text-dark fw-500">responsive</span> components.
-          <br />
-          <small class="text-danger inspiration block">
-            *inspired by
-            <a target="_blank" href="https://vuesax.com/">Vuesax</a></small
-          >
         </p>
         <div class="flex items-center">
           <button
