@@ -62,7 +62,7 @@
           <highlightjs
             autodetect
             code='<div class="progress">
-    <div class="progressbar" style="width: 85%"></div>
+  <div class="progressbar" style="width: 85%"></div>
 </div>'
           />
         </div>
@@ -111,21 +111,27 @@
             code='<div class="progress primary">
   <div class="progressbar" style="width: 85%"></div>
 </div>
+
 <div class="progress secondary">
   <div class="progressbar" style="width: 60%"></div>
 </div>
+
 <div class="progress success">
   <div class="progressbar" style="width: 95%"></div>
 </div>
+
 <div class="progress info">
   <div class="progressbar" style="width: 40%"></div>
 </div>
+
 <div class="progress warning">
   <div class="progressbar" style="width: 15%"></div>
 </div>
+
 <div class="progress danger">
   <div class="progressbar" style="width: 80%"></div>
 </div>
+
 <div class="progress dark">
   <div class="progressbar" style="width: 55%"></div>
 </div>'
@@ -156,7 +162,7 @@
           <highlightjs
             autodetect
             code='<div class="progress primary infinite">
-    <div class="progressbar" style="width: 85%"></div>
+  <div class="progressbar" style="width: 85%"></div>
 </div>'
           />
         </div>
@@ -186,7 +192,7 @@
           <highlightjs
             autodetect
             code='<div class="progress primary" style="height: 20px">
-	<div class="progressbar" style="width: 55%">Loading</div>
+  <div class="progressbar" style="width: 55%">Loading</div>
 </div>'
           />
         </div>

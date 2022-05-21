@@ -439,7 +439,8 @@
           <p class="fs-6">
             You can apply a specific ratio on any element, just add the
             <code class="text-danger">.has-ratio</code> class to a element for
-            specific ratio.
+            specific ratio. If you resize your screen you will notice that the
+            ratio will be kept same.
           </p>
         </div>
 
@@ -460,12 +461,14 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='<figure class="figure rounded">
-    <img src="https://via.placeholder.com/128?text=rounded" />
-</figure>
-
-<figure class="figure circle">
-    <img src="https://via.placeholder.com/128?text=circle" />
+            code='<figure class="figure size-16by9">
+  <iframe
+    class="has-ratio"
+    src="https://www.youtube.com/embed/YE7VzlLtp-4"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    frameborder="0"
+  ></iframe>
 </figure>'
           />
         </div>

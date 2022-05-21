@@ -235,7 +235,9 @@
             }"
             @click="$router.push('/components/card')"
           >
-            <router-link to="/components/card">Card</router-link>
+            <router-link to="/components/card"
+              >Card <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -244,7 +246,9 @@
             }"
             @click="$router.push('/components/dropdown')"
           >
-            <router-link to="/components/dropdown">Dropdown</router-link>
+            <router-link to="/components/dropdown"
+              >Dropdown <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -253,7 +257,9 @@
             }"
             @click="$router.push('/components/modal')"
           >
-            <router-link to="/components/modal">Modal</router-link>
+            <router-link to="/components/modal"
+              >Modal <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -262,7 +268,9 @@
             }"
             @click="$router.push('/components/navbar')"
           >
-            <router-link to="/components/navbar">Navbar</router-link>
+            <router-link to="/components/navbar"
+              >Navbar <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -271,7 +279,10 @@
             }"
             @click="$router.push('/components/pagination')"
           >
-            <router-link to="/components/pagination">Pagination</router-link>
+            <router-link to="/components/pagination"
+              >Pagination
+              <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -280,7 +291,9 @@
             }"
             @click="$router.push('/components/sidebar')"
           >
-            <router-link to="/components/sidebar">Sidebar</router-link>
+            <router-link to="/components/sidebar"
+              >Sidebar <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -289,7 +302,9 @@
             }"
             @click="$router.push('/components/spinner')"
           >
-            <router-link to="/components/spinner">Spinner</router-link>
+            <router-link to="/components/spinner"
+              >Spinner <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -298,7 +313,9 @@
             }"
             @click="$router.push('/components/toast')"
           >
-            <router-link to="/components/toast">Toast</router-link>
+            <router-link to="/components/toast"
+              >Toast <span class="tag warning">Processing</span></router-link
+            >
           </li>
         </ul>
       </div>
@@ -321,7 +338,10 @@
             }"
             @click="$router.push('/layout/container')"
           >
-            <router-link to="/layout/container">Container</router-link>
+            <router-link to="/layout/container"
+              >Container
+              <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -330,7 +350,9 @@
             }"
             @click="$router.push('/layout/grid')"
           >
-            <router-link to="/layout/grid">Grid</router-link>
+            <router-link to="/layout/grid"
+              >Grid <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -339,7 +361,9 @@
             }"
             @click="$router.push('/layout/hero')"
           >
-            <router-link to="/layout/hero">Hero</router-link>
+            <router-link to="/layout/hero"
+              >Hero <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -348,7 +372,9 @@
             }"
             @click="$router.push('/layout/section')"
           >
-            <router-link to="/layout/section">Section</router-link>
+            <router-link to="/layout/section"
+              >Section <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -357,7 +383,9 @@
             }"
             @click="$router.push('/layout/footer')"
           >
-            <router-link to="/layout/footer">Footer</router-link>
+            <router-link to="/layout/footer"
+              >Footer <span class="tag warning">Processing</span></router-link
+            >
           </li>
         </ul>
       </div>
@@ -380,7 +408,10 @@
             }"
             @click="$router.push('/utilities/backgrounds')"
           >
-            <router-link to="/utilities/backgrounds">Backgrounds</router-link>
+            <router-link to="/utilities/backgrounds"
+              >Backgrounds
+              <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -389,7 +420,9 @@
             }"
             @click="$router.push('/utilities/borders')"
           >
-            <router-link to="/utilities/borders">Borders</router-link>
+            <router-link to="/utilities/borders"
+              >Borders <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -398,7 +431,9 @@
             }"
             @click="$router.push('/utilities/display')"
           >
-            <router-link to="/utilities/display">Display</router-link>
+            <router-link to="/utilities/display"
+              >Display <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -407,7 +442,9 @@
             }"
             @click="$router.push('/utilities/flexbox')"
           >
-            <router-link to="/utilities/flexbox">Flexbox</router-link>
+            <router-link to="/utilities/flexbox"
+              >Flexbox <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -416,7 +453,9 @@
             }"
             @click="$router.push('/utilities/headings')"
           >
-            <router-link to="/utilities/headings">Headings</router-link>
+            <router-link to="/utilities/headings"
+              >Headings <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -425,7 +464,10 @@
             }"
             @click="$router.push('/utilities/interactions')"
           >
-            <router-link to="/utilities/interactions">Interactions</router-link>
+            <router-link to="/utilities/interactions"
+              >Interactions
+              <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -434,7 +476,10 @@
             }"
             @click="$router.push('/utilities/opacities')"
           >
-            <router-link to="/utilities/opacities">Opacities</router-link>
+            <router-link to="/utilities/opacities"
+              >Opacities
+              <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -443,7 +488,10 @@
             }"
             @click="$router.push('/utilities/overflows')"
           >
-            <router-link to="/utilities/overflows">Overflows</router-link>
+            <router-link to="/utilities/overflows"
+              >Overflows
+              <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -452,7 +500,10 @@
             }"
             @click="$router.push('/utilities/positions')"
           >
-            <router-link to="/utilities/positions">Positions</router-link>
+            <router-link to="/utilities/positions"
+              >Positions
+              <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -461,7 +512,9 @@
             }"
             @click="$router.push('/utilities/shadows')"
           >
-            <router-link to="/utilities/shadows">Shadows</router-link>
+            <router-link to="/utilities/shadows"
+              >Shadows <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -470,7 +523,9 @@
             }"
             @click="$router.push('/utilities/sizing')"
           >
-            <router-link to="/utilities/sizing">Sizing</router-link>
+            <router-link to="/utilities/sizing"
+              >Sizing <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -479,7 +534,9 @@
             }"
             @click="$router.push('/utilities/spacing')"
           >
-            <router-link to="/utilities/spacing">Spacing</router-link>
+            <router-link to="/utilities/spacing"
+              >Spacing <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -488,7 +545,10 @@
             }"
             @click="$router.push('/utilities/typography')"
           >
-            <router-link to="/utilities/typography">Typography</router-link>
+            <router-link to="/utilities/typography"
+              >Typography
+              <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -497,7 +557,10 @@
             }"
             @click="$router.push('/utilities/visibility')"
           >
-            <router-link to="/utilities/visibility">Visibility</router-link>
+            <router-link to="/utilities/visibility"
+              >Visibility
+              <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -506,7 +569,10 @@
             }"
             @click="$router.push('/utilities/alignment')"
           >
-            <router-link to="/utilities/alignment">Alignment</router-link>
+            <router-link to="/utilities/alignment"
+              >Alignment
+              <span class="tag warning">Processing</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -515,7 +581,10 @@
             }"
             @click="$router.push('/utilities/font-colors')"
           >
-            <router-link to="/utilities/font-colors">Font Colors</router-link>
+            <router-link to="/utilities/font-colors"
+              >Font Colors
+              <span class="tag warning">Processing</span></router-link
+            >
           </li>
         </ul>
       </div>
@@ -604,6 +673,6 @@ export default {
   line-height: 1;
   position: absolute;
   top: 15%;
-  right: -40px;
+  left: 120%;
 }
 </style>

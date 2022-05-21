@@ -197,26 +197,32 @@
     Primary Tag
     <button class="close"></button>
 </span>
+
 <span class="tag secondary flat">
     Secondary Tag
     <button class="close"></button>
 </span>
+
 <span class="tag success flat">
     Success Tag
     <button class="close"></button>
 </span>
+
 <span class="tag info flat">
     Info Tag
     <button class="close"></button>
 </span>
+
 <span class="tag warning flat">
     Warning Tag
     <button class="close"></button>
 </span>
+
 <span class="tag danger flat">
     Danger Tag
     <button class="close"></button>
 </span>
+
 <span class="tag dark flat">
     Dark Tag
     <button class="close"></button>
@@ -250,6 +256,7 @@
     Primary Tag
     <button class="close"></button>
 </span>
+
 <span class="tag secondary">
     Secondary Tag
     <button class="close"></button>
@@ -308,6 +315,7 @@ closeButtonsForTags.forEach(btn => {
     <span class="tag secondary"> Secondary Tag </span>
     <span class="tag success"> Success Tag </span>
 </div>
+
 <div class="tag-group">
     <span class="tag secondary"> Secondary Tag </span>
     <span class="tag info"> Info Tag </span>

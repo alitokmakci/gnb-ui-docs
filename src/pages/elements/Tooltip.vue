@@ -66,8 +66,7 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='
-<button class="btn primary no-float has-tooltip">
+            code='<button class="btn primary no-float has-tooltip">
     Hover me
     <div class="tooltip">This is a simple tooltip</div>
 </button>'
@@ -134,8 +133,7 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='
-<button class="btn primary no-float has-tooltip">
+            code='<button class="btn primary no-float has-tooltip">
     Primary Tooltip
     <div class="tooltip primary">This is a simple tooltip with a primary color</div>
 </button>
@@ -227,8 +225,7 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='
-<button class="btn primary no-float has-tooltip">
+            code='<button class="btn primary no-float has-tooltip">
     Primary Tooltip
     <div class="tooltip primary flat">This is a simple tooltip with a primary color</div>
 </button>
@@ -291,8 +288,7 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='
-<button class="btn primary no-float has-tooltip">
+            code='<button class="btn primary no-float has-tooltip">
     Tooltip on Left
     <div class="tooltip left">This is a simple tooltip</div>
 </button>
@@ -332,8 +328,7 @@
           <p>HTML:</p>
           <highlightjs
             autodetect
-            code='
-<button class="btn primary no-float has-tooltip">
+            code='<button class="btn primary no-float has-tooltip">
     Hover me
     <div class="tooltip always-active">This is a tooltip which is always active</div>
 </button>'
