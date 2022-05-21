@@ -157,7 +157,9 @@
             }"
             @click="$router.push('/form-elements/checkbox')"
           >
-            <router-link to="/form-elements/checkbox">Checkbox</router-link>
+            <router-link to="/form-elements/checkbox"
+              >Checkbox <span class="tag success">New</span></router-link
+            >
           </li>
           <li
             class="menu-item"
@@ -586,13 +588,16 @@ export default {
   animation: blink 0.8s infinite;
 }
 
-.tag {
+.menu-item a {
+  position: relative;
+}
+
+.menu-item .tag {
   font-size: 0.5rem;
   padding: 3px 6px 2px;
   line-height: 1;
   position: absolute;
-  top: 38%;
-  transform: translate(-50%);
-  right: 50%;
+  top: 15%;
+  right: -40px;
 }
 </style>

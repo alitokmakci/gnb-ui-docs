@@ -64,6 +64,10 @@ const routes = [
     component: () => import("../pages/form/Select.vue"),
   },
   {
+    path: "/form-elements/checkbox",
+    component: () => import("../pages/form/Checkbox.vue"),
+  },
+  {
     path: "/404",
     name: "PageNotExist",
     component: () => import("../pages/404.vue"),

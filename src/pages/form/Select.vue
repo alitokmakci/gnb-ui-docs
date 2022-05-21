@@ -85,7 +85,7 @@
         <div>
           <h2 class="mb-20">&bull; Colors</h2>
           <p class="fs-6">
-            You can add a color to the input by adding the one of the color
+            You can add a color to the select by adding the one of the color
             classes to the <code class="text-danger">select</code> element. Just
             click the select and see the change!
           </p>
