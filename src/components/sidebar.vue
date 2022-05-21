@@ -303,7 +303,7 @@
             @click="$router.push('/components/spinner')"
           >
             <router-link to="/components/spinner"
-              >Spinner <span class="tag warning">Processing</span></router-link
+              >Spinner <span class="tag success">New</span></router-link
             >
           </li>
           <li
@@ -328,7 +328,7 @@
         ref="layout"
       >
         <div class="group-content" @click="openGroup('layout')">
-          <a class="group-title" href="#">Layout</a>
+          <a class="group-title blink-dot" href="#">Layout</a>
         </div>
         <ul class="group-menu">
           <li
@@ -339,8 +339,7 @@
             @click="$router.push('/layout/container')"
           >
             <router-link to="/layout/container"
-              >Container
-              <span class="tag warning">Processing</span></router-link
+              >Container <span class="tag success">New</span></router-link
             >
           </li>
           <li
@@ -373,7 +372,7 @@
             @click="$router.push('/layout/section')"
           >
             <router-link to="/layout/section"
-              >Section <span class="tag warning">Processing</span></router-link
+              >Section <span class="tag success">New</span></router-link
             >
           </li>
           <li
@@ -384,7 +383,7 @@
             @click="$router.push('/layout/footer')"
           >
             <router-link to="/layout/footer"
-              >Footer <span class="tag warning">Processing</span></router-link
+              >Footer <span class="tag success">New</span></router-link
             >
           </li>
         </ul>

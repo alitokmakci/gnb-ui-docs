@@ -11021,7 +11021,7 @@ blockquote {
   transform: scale(0.9);
 }
 .pagination .pagination-btn.disabled {
-  opacity: 0.4;
+  opacity: 0.2;
   pointer-events: none;
 }
 .pagination .pagination-btn.active {

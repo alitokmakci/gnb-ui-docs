@@ -47,6 +47,10 @@ const routes = [
     component: () => import("../pages/components/Avatar.vue"),
   },
   {
+    path: "/components/spinner",
+    component: () => import("../pages/components/Spinner.vue"),
+  },
+  {
     path: "/components/card",
     component: () => import("../pages/components/Card.vue"),
   },
@@ -79,10 +83,21 @@ const routes = [
     path: "/form-elements/textarea",
     component: () => import("../pages/form/Textarea.vue"),
   },
-
   {
     path: "/utilities/backgrounds",
     component: () => import("../pages/utils/Backgrounds.vue"),
+  },
+  {
+    path: "/layout/container",
+    component: () => import("../pages/layout/Container.vue"),
+  },
+  {
+    path: "/layout/section",
+    component: () => import("../pages/layout/Section.vue"),
+  },
+  {
+    path: "/layout/footer",
+    component: () => import("../pages/layout/Footer.vue"),
   },
   {
     path: "/404",
