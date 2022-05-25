@@ -235,9 +235,7 @@
             }"
             @click="$router.push('/components/card')"
           >
-            <router-link to="/components/card"
-              >Card <span class="tag success">New</span></router-link
-            >
+            <router-link to="/components/card">Card</router-link>
           </li>
           <li
             class="menu-item"

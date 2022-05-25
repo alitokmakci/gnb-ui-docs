@@ -129,27 +129,27 @@ const variables = [
     computed: "",
   },
   {
-    name: "$sm-width <span class='tag danger'>deprecated on 0.2.1</span>",
+    name: "$sm-width <span class='tag danger'>removed in 0.2.1</span>",
     value: "540px",
     computed: "",
   },
   {
-    name: "$md-width <span class='tag danger'>deprecated on 0.2.1</span>",
+    name: "$md-width <span class='tag danger'>removed in 0.2.1</span>",
     value: "720px",
     computed: "",
   },
   {
-    name: "$lg-width <span class='tag danger'>deprecated on 0.2.1</span>",
+    name: "$lg-width <span class='tag danger'>removed in 0.2.1</span>",
     value: "960px",
     computed: "",
   },
   {
-    name: "$xl-width <span class='tag danger'>deprecated on 0.2.1</span>",
+    name: "$xl-width <span class='tag danger'>removed in 0.2.1</span>",
     value: "1140px",
     computed: "",
   },
   {
-    name: "$xxl-width <span class='tag danger'>deprecated on 0.2.1</span>",
+    name: "$xxl-width <span class='tag danger'>removed in 0.2.1</span>",
     value: "1320px",
     computed: "",
   },
