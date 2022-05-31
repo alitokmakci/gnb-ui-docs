@@ -14,13 +14,22 @@
             <a class="link dark" href="#flat"> Flat </a>
           </li>
           <li>
+            <a class="link dark" href="#bordered"> Bordered </a>
+          </li>
+          <li>
+            <a class="link dark" href="#shadow"> Shadow </a>
+          </li>
+          <li>
+            <a class="link dark" href="#icon"> Icon </a>
+          </li>
+          <li>
+            <a class="link dark" href="#footer"> Footer </a>
+          </li>
+          <li>
             <a class="link dark" href="#close"> Close Button </a>
           </li>
           <li>
-            <a class="link dark" href="#grouping"> Grouping </a>
-          </li>
-          <li>
-            <a class="link dark" href="#sizing"> Sizing </a>
+            <a class="link dark" href="#close-example"> JS Example </a>
           </li>
           <li>
             <a class="link dark" href="#variables">Variables</a>
@@ -606,7 +615,7 @@
       </div>
     </section>
 
-    <section class="section" id="close">
+    <section class="section" id="close-example">
       <div class="container">
         <div>
           <h2 class="mb-20">&bull; Close Button Javascript Example</h2>

@@ -193,12 +193,16 @@
 </template>
 
 <script setup>
-import Layout from "../../layout/layout.vue";
+import Layout from "../../layout/Layout.vue";
 </script>
 
 <style scoped>
 .docs-title,
 .docs .section {
   padding-right: 1.5rem !important;
+}
+
+.card:hover img {
+  transform: scale(1);
 }
 </style>
