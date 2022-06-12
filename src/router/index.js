@@ -55,6 +55,10 @@ const routes = [
     component: () => import("../pages/components/Card.vue"),
   },
   {
+    path: "/components/dropdown",
+    component: () => import("../pages/components/Dropdown.vue"),
+  },
+  {
     path: "/form-elements",
     component: () => import("../pages/form/index.vue"),
   },

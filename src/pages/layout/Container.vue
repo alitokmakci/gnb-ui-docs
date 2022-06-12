@@ -85,8 +85,8 @@
         <div>
           <h2 class="mb-20">&bull; Variables</h2>
           <p class="fs-6">
-            To customize the container component you change the variables listed
-            below.
+            To customize the container component you can change the variables
+            listed below.
           </p>
         </div>
 

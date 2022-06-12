@@ -361,7 +361,8 @@ closeButtonsForTags.forEach(btn => {
         <div>
           <h2 class="mb-20">&bull; Variables</h2>
           <p class="fs-6">
-            To customize the tag element you change the variables listed below.
+            To customize the tag element you can change the variables listed
+            below.
           </p>
         </div>
 

@@ -244,9 +244,7 @@
             }"
             @click="$router.push('/components/dropdown')"
           >
-            <router-link to="/components/dropdown"
-              >Dropdown <span class="tag warning">Processing</span></router-link
-            >
+            <router-link to="/components/dropdown">Dropdown</router-link>
           </li>
           <li
             class="menu-item"
