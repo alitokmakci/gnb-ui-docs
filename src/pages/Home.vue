@@ -188,6 +188,14 @@
       </div>
     </div>
   </section>
+  <section class="section mt-50 bg-gray-2">
+    <div class="container">
+      <h1 class="text-center">
+        Checkout our
+        <router-link class="link primary" to="/roadmap">roadmap.</router-link>
+      </h1>
+    </div>
+  </section>
   <section class="section mt-20 flex align-center min-h-70">
     <div class="container flex">
       <div class="p-20 description">

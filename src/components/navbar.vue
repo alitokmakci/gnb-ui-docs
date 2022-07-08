@@ -75,10 +75,10 @@
         >Examples
       </router-link>
       <router-link
-        to="#"
+        to="/roadmap"
         class="navbar-item"
         :class="{
-          active: isActive('/road-map'),
+          active: isActive('/roadmap'),
         }"
         >Road Map
       </router-link>

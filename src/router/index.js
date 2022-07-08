@@ -119,6 +119,7 @@ const routes = [
     path: "/:catchAll(.*)", // Unrecognized path automatically matches 404
     redirect: "/404",
   },
+  { path: "/roadmap", component: () => import("../pages/Roadmap.vue") },
 ];
 
 const router = createRouter({
