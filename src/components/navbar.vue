@@ -6,7 +6,6 @@
       shadow: shadow,
     }"
     ref="navbar"
-    style="z-index: 99999"
   >
     <div class="navbar-left">
       <button

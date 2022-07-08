@@ -253,9 +253,7 @@
             }"
             @click="$router.push('/components/modal')"
           >
-            <router-link to="/components/modal"
-              >Modal <span class="tag warning">Processing</span></router-link
-            >
+            <router-link to="/components/modal">Modal</router-link>
           </li>
           <li
             class="menu-item"

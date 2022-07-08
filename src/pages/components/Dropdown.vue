@@ -62,8 +62,8 @@
             To use default dropdown component you have to add a few lines of
             javascript code. Add <code class="text-danger">.open</code> class to
             <code class="text-danger">.dropdown</code> element to open dropdown.
-            Example javascript code given in the next section.
           </p>
+          <small>*Example javascript code given in the next section.</small>
         </div>
 
         <div class="mt-25 text-center">
@@ -282,8 +282,8 @@ dropdownButton.addEventListener("click", () => {
             <div class="dropdown-content">
               <div class="dropdown-menu">
                 <h5 class="dropdown-title">Simple title</h5>
-                <div class="dropdown-item">Deneme</div>
-                <div class="dropdown-item">Deneme</div>
+                <div class="dropdown-item">Item 1</div>
+                <div class="dropdown-item">Item 2</div>
               </div>
             </div>
           </div>
@@ -293,8 +293,8 @@ dropdownButton.addEventListener("click", () => {
             <div class="dropdown-content">
               <div class="dropdown-menu">
                 <h5 class="dropdown-title">Simple title</h5>
-                <div class="dropdown-item">Deneme</div>
-                <div class="dropdown-item">Deneme</div>
+                <div class="dropdown-item">Item 1</div>
+                <div class="dropdown-item">Item 2</div>
               </div>
             </div>
           </div>
@@ -309,8 +309,8 @@ dropdownButton.addEventListener("click", () => {
   <div class="dropdown-content">
     <div class="dropdown-menu">
       <h5 class="dropdown-title">Simple title</h5>
-      <div class="dropdown-item">Deneme</div>
-      <div class="dropdown-item">Deneme</div>
+      <div class="dropdown-item">Item 1</div>
+      <div class="dropdown-item">Item 2</div>
     </div>
   </div>
 </div>
@@ -320,8 +320,8 @@ dropdownButton.addEventListener("click", () => {
   <div class="dropdown-content">
     <div class="dropdown-menu">
       <h5 class="dropdown-title">Simple title</h5>
-      <div class="dropdown-item">Deneme</div>
-      <div class="dropdown-item">Deneme</div>
+      <div class="dropdown-item">Item 1</div>
+      <div class="dropdown-item">Item 2</div>
     </div>
   </div>
 </div>

@@ -59,6 +59,10 @@ const routes = [
     component: () => import("../pages/components/Dropdown.vue"),
   },
   {
+    path: "/components/modal",
+    component: () => import("../pages/components/Modal.vue"),
+  },
+  {
     path: "/form-elements",
     component: () => import("../pages/form/index.vue"),
   },
