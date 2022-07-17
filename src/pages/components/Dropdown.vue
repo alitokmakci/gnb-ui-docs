@@ -2,7 +2,7 @@
   <Layout>
     <template #navigation>
       <div class="card">
-        <h5 class="text-right pr-30 mb-10">On this page:</h5>
+        <h5 class="mb-10 text-right pr-30">On this page:</h5>
         <ul>
           <li>
             <a class="link dark" href="#default"> Default </a>
@@ -66,7 +66,7 @@
           <small>*Example javascript code given in the next section.</small>
         </div>
 
-        <div class="mt-25 text-center">
+        <div class="text-center mt-25">
           <div
             class="dropdown"
             id="default-dropdown"
@@ -117,16 +117,16 @@
           <h2 class="mb-20">&bull; Dropdown Javascript Example</h2>
         </div>
 
-        <div class="mt-25 text-center">
+        <div class="text-center mt-25">
           <div
             class="dropdown"
             id="default-dropdown"
-            ref="dropdown"
-            v-on-click-outside="closeDropdown"
+            ref="dropdownExample"
+            v-on-click-outside="closeDropdownExample"
           >
             <button
               class="btn primary no-float has-caret"
-              @click="openDropdown"
+              @click="openDropdownExample"
             >
               Default Dropdown
             </button>
@@ -181,7 +181,7 @@ dropdownButton.addEventListener("click", () => {
           </p>
         </div>
 
-        <div class="mt-25 text-center">
+        <div class="text-center mt-25">
           <div class="dropdown hoverable">
             <button class="btn primary no-float has-caret">
               Hoverable Dropdown
@@ -229,7 +229,7 @@ dropdownButton.addEventListener("click", () => {
           </p>
         </div>
 
-        <div class="mt-25 text-center">
+        <div class="text-center mt-25">
           <div class="dropdown hoverable right">
             <button class="btn primary no-float has-caret">
               Right Dropdown
@@ -276,8 +276,8 @@ dropdownButton.addEventListener("click", () => {
           </p>
         </div>
 
-        <div class="mt-25 text-center">
-          <div class="dropdown to-up hoverable mr-10">
+        <div class="text-center mt-25">
+          <div class="mr-10 dropdown to-up hoverable">
             <button class="btn primary no-float has-caret">Dropup Left</button>
             <div class="dropdown-content">
               <div class="dropdown-menu">
@@ -341,7 +341,7 @@ dropdownButton.addEventListener("click", () => {
           </p>
         </div>
 
-        <div class="mt-25 text-center">
+        <div class="text-center mt-25">
           <div class="dropdown hoverable">
             <button class="btn primary no-float">
               Dropdown Button Without Caret
@@ -388,7 +388,7 @@ dropdownButton.addEventListener("click", () => {
           </p>
         </div>
 
-        <div class="mt-25 text-center">
+        <div class="text-center mt-25">
           <div class="dropdown primary hoverable">
             <button class="btn primary no-float has-carret">
               Dropdown with Primary Background
@@ -435,7 +435,7 @@ dropdownButton.addEventListener("click", () => {
           </p>
         </div>
 
-        <div class="mt-25 text-center">
+        <div class="text-center mt-25">
           <div class="dropdown primary flat hoverable">
             <button class="btn primary no-float has-carret">
               Dropdown with Primary Flat Background
@@ -482,7 +482,7 @@ dropdownButton.addEventListener("click", () => {
           </p>
         </div>
 
-        <div class="mt-25 text-center">
+        <div class="text-center mt-25">
           <div class="dropdown square hoverable">
             <button class="btn primary no-float has-carret">
               Square Dropdown
@@ -543,6 +543,7 @@ import variableTable from "../../components/variableTable.vue";
 const variables = [];
 
 const dropdown = ref(null);
+const dropdownExample = ref(null);
 
 const openDropdown = () => {
   dropdown.value.classList.toggle("open");
@@ -550,5 +551,13 @@ const openDropdown = () => {
 
 const closeDropdown = () => {
   dropdown.value.classList.remove("open");
+};
+
+const openDropdownExample = () => {
+  dropdownExample.value.classList.toggle("open");
+};
+
+const closeDropdownExample = () => {
+  dropdownExample.value.classList.remove("open");
 };
 </script>

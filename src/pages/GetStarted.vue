@@ -179,7 +179,7 @@ yarn add gnb-ui"
     <link rel=&quot;stylesheet&quot; href=&quot;${$store.state.cdn_link}&quot; />
   </head>
   <body>
-    <div class=&quot;hero lg&quot;>
+    <div class=&quot;hero primary lg&quot;>
       <div class=&quot;hero-body&quot;>
         <h1>Welcome to GNB UI</h1>
         <p>We love to create beauty</p>

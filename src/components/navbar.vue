@@ -39,6 +39,8 @@
         class="dropdown navbar-item"
         :class="{
           active:
+            isActive('/integration') ||
+            isActive('/customization') ||
             isActive('/elements') ||
             isActive('/components') ||
             isActive('/layout') ||
